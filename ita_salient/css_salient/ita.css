@@ -1,0 +1,270 @@
+/*ACCENT COLOR*/
+Accent color : #1e2d3b
+Extra Color#1: #18242f
+Extra Color#2: #daac50
+Extra Color#3: #02b389
+
+
+--------------------------------------------------------
+/*Typography*/
+/*-Navigation & Page Header*/
+.LogoFont{
+  font-family: Cormorant;
+  font-weight: 300;
+  font-size: 16px;
+  line-height:16px;
+}
+
+.navigationfont {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+/*Menu Déroulant*/
+.navigation-drowpdown-font {
+  font-family: Fira Sans;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+/*header Article */
+.page-heading-font {
+  font-family: Cormorant;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+.page-heading-subtitle-font {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+/*Navigation Mobile */
+.off-canvas-navigation {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.off-canvas-navigation-sub-text {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+}
+
+------------------
+/*-GENERAL HTML ELEMENTS*/
+
+.body-font {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+}
+
+.heading1-H1 {
+  font-family: Cormorant;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: none;
+}
+
+.heading2-H2 {
+  font-family: Cormorant;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: none;
+}
+
+.heading3-H3 {
+  font-family: Cormorant;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: none;
+}
+
+.heading4-H4 {
+  font-family: Cormorant;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1.5;
+}
+
+.heading5-H5 {
+  font-family: Cormorant;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 8px;
+  line-height: 45px;
+  letter-spacing: 1.5;
+}
+
+.heading6-H6 {
+  font-family: Cormorant;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: none;
+}
+
+.italic {
+  font-family: Cormorant;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: none;
+}
+
+.bold {
+  font-family: Fira Sans;
+  font-weight: 400;
+
+}
+
+.form-category-labels {
+  font-family: none;
+  font-weight:none;
+  text-transform: none;
+  font-size: none;
+  line-height: none;
+  letter-spacing: none;
+}
+
+------------------
+/*-Nectar Specific elements*/
+
+.nectar_button {
+  font-family: Fira Sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 24;
+  line-height: 24;
+  letter-spacing: none;
+}
+
+.sidebar-footer-header {
+  font-family: Cormorant;
+  font-weight:300;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: none;
+}
+
+.nectar-home-slider-heading-font {
+  font-family: Cormorant;
+  font-weight:none;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: none;
+}
+
+.nectar-home-slider-caption-font {
+  font-family: Cormorant;
+  font-weight:700;
+  text-transform: none;
+  font-style: italic;
+  font-size: none;
+  line-height: none;
+  letter-spacing: none;
+}
+
+.testimonial-slider-blockquote-font {
+  font-family: Fira Sans;
+  font-weight:none;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: none;
+}
+
+.portfolio-post-gird-filters {
+  font-family: Fira Sans;
+  font-weight:200;
+  text-transform: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: none;
+}
+
+.portfolio-caption-excerpt {
+  font-family: Fira Sans;
+  font-weight:300;
+  text-transform: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: none;
+}
+
+.sub-header-team-member-names-font {
+  font-family: Fira Sans;
+  font-weight:100;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: none;
+}
+
+.dropcap{
+  font-family: Cormorant;
+  font-weight:600;
+  font-style: italic;
+  text-transform: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: none;
+}
+
+.woocommerce-product-title-font {
+  font-family: none;
+  font-weight:none;
+  text-transform: none;
+  font-size: none;
+  line-height: none;
+  letter-spacing: none;
+}
+
+.woocommerce-product-secondary-font {
+  font-family: none;
+  font-weight:none;
+  text-transform: none;
+  font-size: none;
+  line-height: none;
+  letter-spacing: none;
+}
+
+--------------------------------------------
+/*RESPONSIVE*/
+
