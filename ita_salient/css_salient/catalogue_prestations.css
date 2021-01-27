@@ -1,0 +1,120 @@
+/*BUTTON*/
+.cta_prestation span {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+}
+
+/*HEADER*/
+#besoint_information_title {
+    color: white !important;
+}
+
+
+.description_catalogue_prestations p{
+    color: white !important;
+}
+
+.description_catalogue_prestations a {
+    color: #daac50 !important;
+    font-weight: 500 !important;
+}
+
+
+/*Prestations*/
+.collection h2{
+    font-size: 16px !important;
+    font-family: Fira Sans !important;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+}
+.collection strong {
+    font-family: Cormorant !important;
+    font-style: italic;
+}
+
+/*Photo prestation*/
+.border_line_picture {
+    border-bottom: .5px solid #1E2D3B;
+}
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
+}
+
+.footer_mobile {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
+}
+
+/*instagram*/
+.adress_insta {
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
+}
+
+#widget_flo_instagram-3 h4 {
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+    transform: rotate(180deg) !important;
+    font-family: Fira Sans !important;
+    position: relative !important;
+    top: 204px !important;
+    right: 64px !important;
+    background: white !important;
+    padding: 8px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+}
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+/*----------------------responsive--------------*/
+@media only screen and (max-width: 800px) {
+    #header_catalogueh1 {
+      font-size: 16px;
+      text-align: center !important;
+    }
+    #subtitle_catalogue_photographer {
+      line-height: 1.6;
+      font-size: 10px !important;
+      font-weight: 300 !important;
+      font-family: Fira Sans !important;
+      text-align: center !important;
+    }
+
+    .collection h2{
+      font-size: 14px !important;
+      text-align: center !important;
+    }
+    #separrator {
+      text-transform: uppercase;
+      line-height: 1.6;
+      font-size: 10px !important;
+      letter-spacing: 1px;
+      font-weight: 300 !important;
+      font-family: Fira Sans !important;
+      text-align: center;
+    }
+}

@@ -1,0 +1,58 @@
+body .toggle h3 a {
+    font-size: 16px !important;
+}
+
+.bottom-text  {
+    font-family: Cormorant !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.2px !important;
+    color: #1E2D3B !important;
+    font-size: 12px !important;
+}
+
+p {
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 10px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    color: #1E2D3B !important;
+    text-transform: uppercase !important;
+}
+
+
+.page-submenu li a {
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    /*line-height: 150%;*/
+    font-weight: medium;
+    color: #394958 !important;
+}
+
+
+.hover_item:hover {
+    background-color: #FAFAFA;
+}
+
+body a {
+    color: #18242f;
+}
+
+.gallery {
+    font-style: oblique !important;
+}
+.project {
+/*    font-style: italic !important;*/
+    font-weight: lighter !important;
+    font-size: 12px !important;
+}
+
+.project_mobile {
+    font-size: 10px !important;
+}
+
+.footer_menu {
+    font-family: 'Montserrat' !important;
+    font-size: 12px !important;
+}
