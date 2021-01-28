@@ -1,0 +1,303 @@
+/*-------------------h1---------------------------------------------*/
+.information_top {
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+}
+
+
+.subtitle_header {
+    width: 90% !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+
+
+}
+
+
+.etape {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+}
+
+.tarif {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+}
+
+.portrait {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+}
+
+.product_cta h5 {
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    font-style: italic !important;
+}
+
+.collection {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    text-align:center !important;
+    font-size: 12px !important;
+}
+
+.collection strong {
+    font-weight: 700 !important;
+}
+
+
+
+.nectar-button {
+  border-radius: px !important;
+  font-size: 10px !important;
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  margin-top: 8px !important;
+}
+
+
+
+.item {
+   border-radius: 4px !important;
+   width: 90% !important;
+
+
+
+}
+
+.nectar-button .button_formule:hover {
+    background: red !important;
+}
+
+.nectar-icon-list h4 {
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+}
+
+
+
+
+
+.collection_card {
+    font-style: italic !important;
+    text-transform: capitalize !important;
+}
+
+
+
+.test {
+    background: rgba(243,242,239,0.9) !important;
+    margin-left: 88px !important;
+    margin-right: 88px !important;
+
+    font-style: italic !important;
+}
+
+
+.nectar-icon-list h4 {
+    color: #1F2E3B !important;
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+.nectar-icon-list-item .content{
+    font-size: 12px !important;
+    color: #404054 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+    font-variant: small-caps !important;
+}
+
+.nectar-carousel-fixed-content p {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+}
+
+.nectar_single_testimonial p {
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-family: Fira Sans !important;
+    border: none !important;
+}
+
+.inner-wrap {
+     border: none !important;
+}
+
+.toggle.default a {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+.wrap span {
+    font-size: 12px !important;
+}
+
+.toggle.default p {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+
+}
+
+.retouche {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+}
+
+.annonce_reservation {
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+
+
+
+.etape_description {
+    font-family: Fira Sans !important;
+    font-size: 10px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    width: 70% !important;
+
+}
+
+
+.nectar-flickity[data-controls="touch_total"] .visualized-total span {
+    background-color: #1E2D3B !important;
+    height: 1px !important;
+
+}
+
+.visualized-total {
+    top: 14px !important;
+    background-color: #e1e7e7 !important;
+}
+
+.retouch_title {
+    font-family: Fira Sans !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    font-weight: 400 !important;
+}
+
+/*-----------------instagram---------------*/
+
+.adress_insta {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.5px !important;
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ font-family: Montserrat !important;
+ color: #424256 !important;
+}
+
+#widget_flo_instagram-3 h4 {
+    font-size: 40px !important;
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(180deg) !important;
+     font-family: Montserrat !important;
+     font-weight: 400 !important;
+     position: relative !important;
+     top: 204px !important;
+     right: 64px !important;
+     background: white !important;
+    padding: 8px !important;
+     line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+    /*border-left: 1px solid #424256 !important;*/
+
+
+}
+
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+@media only screen and (max-width: 690px) {
+    .wpb_wrapper h1.vc_custom_heading {
+        font-size: 7px !important;
+    }
+}
