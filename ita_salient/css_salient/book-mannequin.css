@@ -121,23 +121,27 @@
 
 /*PLUS D'INFORMATION CTA*/
 /*pola*/
-.discover_white span  {
+.discover_white h3  {
   line-height: 1.6 !important;
   letter-spacing: 1.6px !important;
   text-transform: uppercase !important;
   font-size: 12px !important;
   color: white !important;
+  font-family: Fira Sans !important;
+  font-weight: 500 !important;
 }
-.discover_black span  {
+.discover_black h3  {
   line-height: 1.6 !important;
   letter-spacing: 1px !important;
   text-transform: uppercase !important;
   font-size: 12px !important;
   color: #18242f !important;
+  font-family: Fira Sans !important;
+  font-weight: 500 !important;
 }
 
 /*RÉSERVER*/
-.booking_book-agency h3 {
+.booking_book-agency h4 {
   font-weight: 500 !important;
   font-size: 18px !important;
   letter-spacing: 1.6px;
