@@ -45,12 +45,27 @@
   letter-spacing: 1px !important;
   text-transform: uppercase !important;
   font-size: 10px !important;
-
 }
+.bottom_meta i {
+ font-size: 60px !important;
+ color: #18242f !important;
+}
+.bottom_meta.fa-plus {
+    color: red !important;
+}
+
+.nectar_team_member_overlay .team_member_details .bio-inner .mobile-close {
+    margin-top: 30px !important;
+}
+
+
 /*------------------------------------*/
 /*PRESTATIONS MANNEQUIN*/
 /*prestation pola black*/
 /*POLA giulia*/
+.bloc_prestation_pola {
+  border-right: 1px white solid !important;
+}
 .polas {
   transform: rotate(-5deg) !important;
   position: relative !important;
@@ -70,93 +85,28 @@
 }
 /*title Pola*/
 /*collection*/
-.collection_black h1 {
-  font-size: 10px !important;
-  color: white;
-  font-weight: 400 !important;
-  font-family: Fira Sans !important;
+#collection_devenir_mannequin {
   letter-spacing: 1.6px !important;
 }
 
-.title {
-    font-family: Fira Sans !important;
-    font-weight: 300 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    font-size: 12px !important;
-}
-
-.bottom_meta i {
- font-size: 80px !important;
- color: #010b13 !important;
- position: relative !important;
- /*top: -10 !important;*/
- left: 40 !important;
-}
-
-/*BIOGRAPHY*/
-
-.title {
-    font-family: Fira Sans !important;
-}
-
-.bio-inner h2 {
-  font-size: 40px !important;
-}
-
-.column-bg-overlay {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
-}
-
-.discover_white span  {
-    font-family: Fira Sans !important;
-    font-weight: 400 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    font-size: 12px !important;
-    color: white !important;
-}
-
-.discover_black span  {
-    font-family: Fira Sans !important;
-    font-weight: 400 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    font-size: 12px !important;
-    color: #010b13 !important;
-}
-.cta p {
-    color: #daac50 !important;
-    font-family: Fira Sans !important;
-    font-weight: 500;
-    font-size: 14px !important;
-    width: 120% !important;
-    padding-left: 8px !important;
-}
-
-.tmp {
-  border-right: 1px white solid !important;
-}
-
-
-.cta_black h1 {
-    color: #1e2d3b !important;
-    font-family: Fira Sans !important;
-    font-weight: 500 !important;
-    font-size: 14px !important;
-    width: 80% !important;
-
-}
-
-
+/*collection book- beauty - editorial*/
 .collection {
- font-family: Fira Sans !important;
- font-weight: 300 !important;
- font-size: 12px !important;
+ letter-spacing: 1.6px;
+}
+
+/*annonce_prestation pola*/
+.prestation_black p {
+  color: white !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+}
+
+.prestation_black strong {
+    font-weight: 300 !important;
+    background: rgba(247,247,247,0.26);
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .prestation {
@@ -169,83 +119,34 @@
  letter-spacing: 1px !important;
 }
 
-.prestation strong {
-    font-family: Fira Sans !important;
-    font-weight: bold !important;
+/*PLUS D'INFORMATION CTA*/
+/*pola*/
+.discover_white span  {
+  line-height: 1.6 !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  color: white !important;
+}
+.discover_black span  {
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  color: #18242f !important;
 }
 
-#prestation_black p {
-    color: white !important;
-    font-weight: 400 !important;
-}
-
-/*SHOOTINH EDITORIAL*/
-.collection_editorial p{
-  padding-left: 50px !important;
+/*RÉSERVER*/
+.booking_book-agency h3 {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  letter-spacing: 1.6px;
   font-family: Fira Sans !important;
-  font-weight: light !important;
-  font-style: italic !important;
+  width: 120% !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  padding-left: 8px !important;
 }
-
-/*SHOOTINH EDITORIAL*/
-.item_editorial {
- padding-top: 100px !important;
- padding-bottom: 100px !important;
- padding-left: 50px;
- /*background: rgba(242,242,242,0.5) !important;*/
- border-radius: 4px !important;
- height: 95% !important;
-}
-
-#locations {
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.vc_column-inner {
-    box-shadow: none !important;
-}
-
-.collection_black h1 {
-    font-size: 12px !important;
-    color: white !important;
-    font-weight: 400 !important;
-    font-family: Fira Sans !important;
-    letter-spacing: 1.6px;
-}
-
-.prestation_black p {
-    color: white !important;
-    font-weight: 400 !important;
-    font-size: 10px !important;
-    letter-spacing: 1.5 !important;
-    line-height: 1.6 !important;
-}
-
-.prestation_black strong {
-    font-family: Fira Sans !important;
-    line-height: 1.6 !important;
-    letter-spacing: 2px !important;
-    font-weight: 700 !important;
-
-}
-
-
-
-
-.nectar_team_member_overlay .team_member_details .bio-inner .mobile-close {
-    margin-top: 30px !important;
-
-}
-
-.cta_form h3 {
-    font-weight: 500;
-    color: #daac50 !important;
-    font-size: 14px !important;
-    font-family: Fira Sans !important;
-}
-
-
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
@@ -305,15 +206,6 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   #title_mobile {
     font-size: 10px !important;
     padding-left: 2%;
-  }
-  /*Button*/
-  .cta_black p {
-    font-size: 12px !important;
-    width: 80% !important;
-  }
-  .cta p {
-    font-size: 12px !important;
-    width: 100% !important;
   }
 
 /*FOOTER*/
