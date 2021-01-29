@@ -1,19 +1,25 @@
-/*-------------------h1---------------------------------------------*/
-.information_top {
-    font-family: Fira Sans !important;
-    font-weight: 300 !important;
-    letter-spacing: 1px !important;
+/*-------------------TOP HEADER---------------------------------------------*/
+#title_informations_book_mannequin {
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
 }
-
 
 .subtitle_header {
     width: 90% !important;
     font-weight: 300 !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
-
-
 }
+
+/*BUTTON*/
+.nectar-button {
+  font-size: 10px !important;
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  margin-top: 8px !important;
+}
+
 
 
 .etape {
@@ -57,24 +63,9 @@
 }
 
 
-
-.nectar-button {
-  border-radius: px !important;
-  font-size: 10px !important;
-  font-family: Fira Sans !important;
-  font-weight: 300 !important;
-  font-style: italic !important;
-  margin-top: 8px !important;
-}
-
-
-
 .item {
    border-radius: 4px !important;
    width: 90% !important;
-
-
-
 }
 
 .nectar-button .button_formule:hover {
@@ -86,25 +77,17 @@
     font-size: 14px !important;
 }
 
-
-
-
-
 .collection_card {
     font-style: italic !important;
     text-transform: capitalize !important;
 }
 
-
-
 .test {
     background: rgba(243,242,239,0.9) !important;
     margin-left: 88px !important;
     margin-right: 88px !important;
-
     font-style: italic !important;
 }
-
 
 .nectar-icon-list h4 {
     color: #1F2E3B !important;
@@ -163,7 +146,6 @@
     font-size: 12px !important;
     text-transform: uppercase !important;
     font-size: 12px !important;
-
 }
 
 .retouche {
@@ -180,22 +162,17 @@
     text-transform: uppercase !important;
 }
 
-
-
 .etape_description {
     font-family: Fira Sans !important;
     font-size: 10px !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
     width: 70% !important;
-
 }
-
 
 .nectar-flickity[data-controls="touch_total"] .visualized-total span {
     background-color: #1E2D3B !important;
     height: 1px !important;
-
 }
 
 .visualized-total {
@@ -213,91 +190,71 @@
     font-weight: 400 !important;
 }
 
-/*-----------------instagram---------------*/
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
+}
 
+.footer_mobile {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
+}
+
+/*instagram*/
 .adress_insta {
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1.5px !important;
- font-size: 10px !important;
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
  font-weight: 400 !important;
- font-family: Montserrat !important;
- color: #424256 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
 }
 
 #widget_flo_instagram-3 h4 {
-    font-size: 40px !important;
     color: #424256 !important;
     text-transform: uppercase !important;
     writing-mode: vertical-lr !important;
     text-orientation: mixed !important;
-     transform: rotate(180deg) !important;
-     font-family: Montserrat !important;
-     font-weight: 400 !important;
-     position: relative !important;
-     top: 204px !important;
-     right: 64px !important;
-     background: white !important;
+    transform: rotate(180deg) !important;
+    font-family: Fira Sans !important;
+    position: relative !important;
+    top: 204px !important;
+    right: 64px !important;
+    background: white !important;
     padding: 8px !important;
-     line-height: 1.6 !important;
+    line-height: 1.6 !important;
     letter-spacing: 1.5px !important;
     border-right: 1px solid #424256 !important;
-    /*border-left: 1px solid #424256 !important;*/
-
-
 }
-
 
 body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
     font-size: 9px !important;
     font-weight: 400 !important;
 }
 
+/*-------------RESPONSIVE------------------*/
+@media only screen and (max-width: 800px) {
+  #title_informations_book_mannequin {
+    font-size: 7px !important;
+  }
 
-
-/*-------------------FOOTER_NAV---------------------*/
-.footer_menu {
-    font-family: 'Fira Sans' !important;
-    font-size: 12px !important;
-    display: inline-block !important;
-    padding: 20px !important;
-    text-align: center !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    font-weight: 400 !important;
-    color: #424256 !important;
-}
-
-.subtitle {
-    text-transform: uppercase !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-size: 14px !important;
-    font-weight: 300 !important;
-    font-family: Fira Sans !important;
-    text-align: center !important;
-
-
-}
-
-.separrator h4 {
-    text-transform: uppercase !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-size: 10px !important;
-    font-weight: 300 !important;
-    font-family: Fira Sans !important;
-    text-align: center !important;
-}
-
-.footer_mobile {
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-size: 10px !important;
-}
-
-@media only screen and (max-width: 690px) {
-    .wpb_wrapper h1.vc_custom_heading {
-        font-size: 7px !important;
-    }
+  #separrator {
+  text-transform: uppercase;
+  line-height: 1.6;
+  font-size: 10px !important;
+  letter-spacing: 1px;
+  font-weight: 300 !important;
+  font-family: Fira Sans !important;
+  text-align: center;
+  }
 }
