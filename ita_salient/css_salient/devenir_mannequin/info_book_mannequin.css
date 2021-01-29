@@ -4,7 +4,7 @@
   font-weight: 300 !important;
 }
 
-.subtitle_header {
+.subtitle_headerH1 {
     width: 90% !important;
     font-weight: 300 !important;
     line-height: 1.6 !important;
@@ -12,17 +12,31 @@
 }
 
 /*BUTTON*/
+
+/*BUTTON ALL SITE*/
 .nectar-button {
   font-size: 10px !important;
   font-family: Fira Sans !important;
   font-weight: 300 !important;
   font-style: italic !important;
-  margin-top: 8px !important;
 }
 
+/*-------------------*/
+/*#COLLECTION DEVENIR MANNEQUIN*/
 
+.collection {
+    line-height: 1.6 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+}
 
-.etape {
+.collection strong {
+    font-weight: 700 !important;
+}
+.etape_devenir_mannequin {
     font-family: Fira Sans !important;
     font-weight: 400 !important;
     line-height: 1.6 !important;
@@ -32,7 +46,7 @@
 .tarif {
     font-weight: 300 !important;
     line-height: 1.6 !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 2px !important;
     text-transform: uppercase !important;
 }
 
@@ -42,25 +56,20 @@
     text-transform: uppercase !important;
 }
 
-.product_cta h5 {
-    font-weight: 300 !important;
-    font-size: 12px !important;
+/*Photo prestation*/
+.border_line_picture {
+    border-bottom: 1px solid #1E2D3B;
+}
+
+.reserver_cta_presta_mannequin h5 {
+    font-weight: 400 !important;
+    font-size: 14px !important;
     font-style: italic !important;
-}
-
-.collection {
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
     font-family: Fira Sans !important;
-    font-weight: 300 !important;
-    text-align:center !important;
-    font-size: 12px !important;
+    color: #daac50;
+    letter-spacing: 1.5px
 }
 
-.collection strong {
-    font-weight: 700 !important;
-}
 
 
 .item {
