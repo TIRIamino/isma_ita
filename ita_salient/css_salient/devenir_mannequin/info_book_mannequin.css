@@ -252,3 +252,14 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   text-align: center;
   }
 }
+
+
+
+
+/*----------------------------*/
+.flickity-slider .cell img {
+ border-radius: 10px;
+ border-bottom: 1px solid #daac50;
+}
+
+
