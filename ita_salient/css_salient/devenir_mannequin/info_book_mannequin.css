@@ -5,10 +5,10 @@
 }
 
 .subtitle_headerH1 {
-    width: 90% !important;
-    font-weight: 300 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
+ width: 90% !important;
+ font-weight: 300 !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
 }
 
 /*BUTTON*/
@@ -25,35 +25,29 @@
 /*#COLLECTION DEVENIR MANNEQUIN*/
 
 .collection {
-    line-height: 1.6 !important;
-    letter-spacing: 2px !important;
-    text-transform: uppercase !important;
-    font-family: Fira Sans !important;
-    font-weight: 300 !important;
-    font-size: 12px !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+ text-transform: uppercase !important;
+ font-family: Fira Sans !important;
+ font-weight: 300 !important;
+ font-size: 12px !important;
 }
 
 .collection strong {
-    font-weight: 700 !important;
+ font-weight: 700 !important;
 }
 .etape_devenir_mannequin {
-    font-family: Fira Sans !important;
-    font-weight: 400 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
+ font-family: Fira Sans !important;
+ font-weight: 400 !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
 }
 
 .tarif {
-    font-weight: 300 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 2px !important;
-    text-transform: uppercase !important;
-}
-
-.portrait {
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
+ font-weight: 300 !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+ text-transform: uppercase !important;
 }
 
 /*Photo prestation*/
@@ -62,28 +56,26 @@
 }
 
 .reserver_cta_presta_mannequin h5 {
-    font-weight: 400 !important;
-    font-size: 14px !important;
-    font-style: italic !important;
-    font-family: Fira Sans !important;
-    color: #daac50;
-    letter-spacing: 1.5px
+ font-weight: 400 !important;
+ font-size: 14px !important;
+ font-style: italic !important;
+ font-family: Fira Sans !important;
+ color: #daac50;
+  etter-spacing: 1.5px
 }
 
-
-
-.item {
-   border-radius: 4px !important;
-   width: 90% !important;
+.etape_description {
+ font-size: 10px !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.2px !important;
+ width: 80% !important;
 }
 
-.nectar-button .button_formule:hover {
-    background: red !important;
-}
 
 .nectar-icon-list h4 {
     font-family: Montserrat !important;
     font-size: 14px !important;
+    font-family: purple !important;
 }
 
 .collection_card {
@@ -171,13 +163,6 @@
     text-transform: uppercase !important;
 }
 
-.etape_description {
-    font-family: Fira Sans !important;
-    font-size: 10px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    width: 70% !important;
-}
 
 .nectar-flickity[data-controls="touch_total"] .visualized-total span {
     background-color: #1E2D3B !important;
