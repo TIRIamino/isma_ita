@@ -42,6 +42,10 @@
  line-height: 1.6 !important;
  letter-spacing: 1px !important;
 }
+.etape_devenir_mannequin_description {
+  text-align: justify-all;
+  width: 56%;
+}
 
 .tarif {
  font-weight: 300 !important;
@@ -61,7 +65,7 @@
  font-style: italic !important;
  font-family: Fira Sans !important;
  color: #daac50;
-  etter-spacing: 1.5px
+ letter-spacing: 1.5px
 }
 
 .etape_description {
@@ -70,50 +74,62 @@
  letter-spacing: 1.2px !important;
  width: 80% !important;
 }
+/*---------GALLERY-------------------*/
+.flickity-slider .cell img {
+ border-radius: 8px;
+}
+.nectar-flickity[data-controls="touch_total"] .visualized-total span {
+  background-color: #daac50 !important;
+  height: .5px !important;
+}
 
+/*---------DÉROULEMENT SHOOTING-------------------*/
 
 .nectar-icon-list h4 {
-    font-family: Montserrat !important;
-    font-size: 14px !important;
-    font-family: purple !important;
-}
-
-.collection_card {
-    font-style: italic !important;
-    text-transform: capitalize !important;
-}
-
-.test {
-    background: rgba(243,242,239,0.9) !important;
-    margin-left: 88px !important;
-    margin-right: 88px !important;
-    font-style: italic !important;
-}
-
-.nectar-icon-list h4 {
-    color: #1F2E3B !important;
-    font-family: Fira Sans !important;
-    font-weight: 400 !important;
-    font-size: 12px !important;
+  color: /*#1F2E3B*/ #daac50 !important;
+  font-family: Fira Sans !important;
+  font-weight: 400    !important;
+  font-size: 12px;
 }
 .nectar-icon-list-item .content{
-    font-size: 12px !important;
-    color: #404054 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-family: Fira Sans !important;
-    text-transform: uppercase !important;
-    font-variant: small-caps !important;
+  font-size: 10px !important;
+  color: #404054 !important;
+  line-height: 1.6;
+  letter-spacing: 1.6px;
+  text-align: justify-all;
+  text-transform: uppercase;
 }
 
-.nectar-carousel-fixed-content p {
+/*-----------RETOUCHE------------------------*/
+.retouche_box {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+.subtitle_header_retouche {
+  letter-spacing: 1.6;
+  line-height: 1.6;
+  text-align: justify-all;
+}
+.retouch_title {
+  line-height: 1.6 !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase;
+}
+
+/*avis clients*/
+
+.inner-wrap {
+     border: none !important;
+}
+
+/*.nectar-carousel-fixed-content p {
     font-weight: 300 !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
     font-size: 12px !important;
-}
+    color: purple;
+}*/
 
-.nectar_single_testimonial p {
+/*.nectar_single_testimonial p {
     font-weight: 400 !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
@@ -121,38 +137,41 @@
     text-transform: uppercase !important;
     font-family: Fira Sans !important;
     border: none !important;
-}
+    color: red;
+}*/
 
-.inner-wrap {
-     border: none !important;
-}
 
-.toggle.default a {
+/*.toggle.default a {
     font-weight: 300 !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
     font-size: 12px !important;
     text-transform: uppercase !important;
     font-size: 12px !important;
-}
+    color: orange;
+}*/
 
-.wrap span {
+/*.wrap span {
     font-size: 12px !important;
-}
+}*/
 
-.toggle.default p {
+/*.toggle.default p {
     font-weight: 300 !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
     font-size: 12px !important;
+    color: yellow;
     text-transform: uppercase !important;
-    font-size: 12px !important;
 }
+*/
 
-.retouche {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+
+/*.visualized-total {
+    top: 14px !important;
+    background-color: #e1e7e7 !important;
 }
+*/
+
 
 .annonce_reservation {
     font-family: Fira Sans !important;
@@ -163,26 +182,6 @@
     text-transform: uppercase !important;
 }
 
-
-.nectar-flickity[data-controls="touch_total"] .visualized-total span {
-    background-color: #1E2D3B !important;
-    height: 1px !important;
-}
-
-.visualized-total {
-    top: 14px !important;
-    background-color: #e1e7e7 !important;
-}
-
-.retouch_title {
-    font-family: Fira Sans !important;
-    font-size: 11px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    text-align: center !important;
-    font-weight: 400 !important;
-}
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
@@ -215,25 +214,25 @@
 }
 
 #widget_flo_instagram-3 h4 {
-    color: #424256 !important;
-    text-transform: uppercase !important;
-    writing-mode: vertical-lr !important;
-    text-orientation: mixed !important;
-    transform: rotate(180deg) !important;
-    font-family: Fira Sans !important;
-    position: relative !important;
-    top: 204px !important;
-    right: 64px !important;
-    background: white !important;
-    padding: 8px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    border-right: 1px solid #424256 !important;
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
 }
 
 body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
-    font-size: 9px !important;
-    font-weight: 400 !important;
+  font-size: 9px !important;
+  font-weight: 400 !important;
 }
 
 /*-------------RESPONSIVE------------------*/
@@ -241,25 +240,38 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   #title_informations_book_mannequin {
     font-size: 7px !important;
   }
+  #deroulement_shooting_mannequin {
+    font-size: 10px !important;
+  }
+
+  #subtitle_header_retouche_mobile {
+    font-size: 10px !important;
+    text-align: center !important;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  #retouch {
+    font-size: 11px !important;
+    letter-spacing: 1.6px;
+  }
+
 
   #separrator {
-  text-transform: uppercase;
-  line-height: 1.6;
-  font-size: 10px !important;
-  letter-spacing: 1px;
-  font-weight: 300 !important;
-  font-family: Fira Sans !important;
-  text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center;
+  }
+
+  .nectar-flickity {
+    width: 200% !important;
+    position: relative;
+    right: 48px;
   }
 }
 
-
-
-
-/*----------------------------*/
-.flickity-slider .cell img {
- border-radius: 10px;
- border-bottom: 1px solid #daac50;
-}
 
 
