@@ -50,9 +50,6 @@
  font-size: 60px !important;
  color: #18242f !important;
 }
-.bottom_meta.fa-plus {
-    color: red !important;
-}
 
 .nectar_team_member_overlay .team_member_details .bio-inner .mobile-close {
     margin-top: 30px !important;
@@ -103,7 +100,7 @@
 }
 
 .prestation_black strong {
-    font-weight: 300 !important;
+    font-weight: 500 !important;
     background: rgba(247,247,247,0.26);
     padding-left: 2px;
     padding-right: 2px;

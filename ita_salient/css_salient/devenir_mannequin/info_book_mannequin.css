@@ -221,7 +221,8 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
 
   #subtitle_header_retouche_mobile {
     font-size: 10px !important;
-    text-align: center !important;
+    text-align: justify-all; !important;
+    line-height: 1.6 !important;
     padding-left: 6%;
     padding-right: 6%;
   }
