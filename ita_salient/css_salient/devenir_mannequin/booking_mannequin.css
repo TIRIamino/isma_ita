@@ -1,92 +1,40 @@
-/*HEADER*/
+/*HEADER_ logo*/
 
-.logo_responsive {
+#logo_ismahane_tabet_aoul {
  font-family: Cormorant !important;
  font-weight: 300 !important;
- color: #1E2D3B !important;
- font-size: 18px !important;
- text-transform: uppercase !important;
- text-align: center !important;
+ font-size: 24px !important;
 }
 
-.separator_responsive {
- font-size: 8px !important;
- color: #1E2D3B !important;
- text-align: center !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
+#separator_photographe {
+ letter-spacing: 1.6px;
 }
 
-/*TEXTE D'INFORMATION*/
+/*-------------------DESKTOP------------------*/
+/*H1*/
 
-@media only screen and (max-width: 690px) {
-    .wpb_wrapper h1.vc_custom_heading {
-        font-family: Cormorant !important;
-        font-size: 12px !important;
-        font-weight: 300 !important;
-        color: #1E2D3B !important;
-        padding-left: 32px !important;
-    }
+.title_booking_shooting  {
+ letter-spacing: 2.5px !important;
+ padding: 12px 1px !important;
 }
 
-/*---------------MOBILE--------------------*/
-.information_reservation {
-    font-family: Fira Sans !important;
-    font-size: 10px !important;
-    font-weight: 300 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    color: #1E2D3B !important;
-    text-transform: uppercase !important;
-}
-/*---------------MOBILE--------------------*/
-
-.info_reservation {
-    font-family: Fira Sans !important;
-    font-size: 12px !important;
-    font-weight: 300 !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    color: #1E2D3B !important;
-    text-transform: uppercase !important;
-}
-
-/*---------------MOBILE--------------------*/
-.information_reservation strong {
-    font-family: Fira Sans !important;
-    font-weight: bold !important;
-}
-/*---------------MOBILE--------------------*/
-
-.info_reservation strong {
-    font-family: Fira Sans !important;
-    font-weight: bold !important;
-}
-
-.reservation_title  {
-    font-family: Fira Sans !important;
- font-size: 12px !important;
- font-weight: 700 !important;
- color: #1E2D3B !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
- padding: 10px 1px !important;
+.subtitle_booking_shooting {
+ padding-top: 16% !important;
+ padding-bottom: 4%;
+ letter-spacing: 1.6px;
 }
 
 /*CONTACT */
 .contact {
  font-family: Fira Sans !important;
- font-size: 11px !important;
- font-weight: 300 !important;
- color: #1E2D3B !important;
+ font-size: 12px !important;
+ font-weight: 400 !important;
+ color: #daac50 !important;
  line-height: 1.6 !important;
  letter-spacing: 1px !important;
  padding-top: 16% !important;
 }
 
-#reservation_title {
-    padding-bottom: 16px !important;
-}
 
 .wpcf7-submit {
 font-family: FontAwesome !important;
@@ -154,8 +102,6 @@ font-style: none !important;
 }
 
 #message {
-    /*border: 0;*/
-    /*border-bottom: 1px solid #8B8B9B;*/
     border: 1px solid #8B8B9B;
     display: block;
     outline: 0;
@@ -170,7 +116,6 @@ font-style: none !important;
     font-weight: 300 !important;
     font-size: 12px !important;
     letter-spacing: .12rem !important;
-    /*line-height: 1px !important;*/
     text-transform: uppercase !important;
     padding: 8px !important;
     border-radius: 8px !important;
@@ -212,7 +157,6 @@ font-style: none !important;
     font-size: 10px !important;
     font-weight: 200 !important;
     width: 100% !important;
-    /*background: purple !important;*/
     text-align: left !important;
 }
 
@@ -316,6 +260,10 @@ content: "";
     border-right: 0.25px solid #FAFBFA !important;
     border-left: 0.25px solid #FAFBFA !important;
 }
+.contact_border2 {
+    border-right: 0.25px solid #ebf1ea !important;
+    border-left: 0.25px solid #ebf1ea !important;
+}
 
 /*---------------------------SIGNATURE*/
 
@@ -371,4 +319,59 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   font-size: 9px !important;
   font-weight: 400 !important;
   font-style: none !important;
+}
+
+
+/*----------------------*/
+/*RESPONSIVE*/
+@media only screen and (max-width: 800px) {
+  #logo_ismahane_tabet_aoul {
+    font-size: 18px !important;
+  }
+  #separator_photographe {
+    letter-spacing: 1.6px;
+    font-size: 8px !important;
+  }
+
+  #booking_title_mannequin {
+    font-family: Fira Sans;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+  }
+
+}
+
+
+/*---------------MOBILE--------------------*/
+.information_reservation {
+    font-family: Fira Sans !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    color: red !important;
+    text-transform: uppercase !important;
+}
+/*---------------MOBILE--------------------*/
+
+.info_reservation {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    color: blue !important;
+    text-transform: uppercase !important;
+}
+
+/*---------------MOBILE--------------------*/
+.information_reservation strong {
+    font-family: Fira Sans !important;
+    font-weight: bold !important;
+}
+/*---------------MOBILE--------------------*/
+
+.info_reservation strong {
+    font-family: Fira Sans !important;
+    font-weight: bold !important;
 }
