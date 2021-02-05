@@ -1,0 +1,657 @@
+/*------------BODY---------------*/
+p {
+ font-family: Fira Sans !important;
+ text-transform: uppercase !important;
+ letter-spacing: 1px  !important;
+ line-height: 1.6 !important;
+ font-weight: 300 !important;
+ font-size: 12px !important;
+}
+
+.nectar-cta h3  {
+  font-size: 10px !important;
+  letter-spacing: 1.6px;
+}
+
+.nectar-cta[data-style="underline"] .link_wrap .link_text:after {
+  border-bottom: 1px solid #daac50 !important;
+}
+
+/*-------------------------LOGO------------------*/
+.logo {
+ font-family: Cormorant !important;
+ font-weight: 300;
+ color: #1E2D3B;
+ text-align: center !important;
+ font-size: 24px;
+}
+
+.separator {
+ font-size: 10px;
+ font-family: Fira Sans !important;
+ text-transform: uppercase !important;
+ letter-spacing: 1px  !important;
+ line-height: 1.6 !important;
+ font-weight: 300 !important;
+ text-align: center !important;
+ position: relative;
+ top: -24px;
+}
+
+/*COLLECTION*/
+.item_collection {
+ font-family: Cormorant !important;
+ font-size: 40px !important;
+ font-weight: 300 !important;
+ width: 80% !important;
+ border-bottom: 1px solid white !important;
+}
+
+
+body h1 {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: #1E2D3B !important;
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+
+    font-style: justify !important;
+
+
+    /*font-variant: small-caps !important;*/
+}
+
+
+.consulting {
+ font-size: 12px !important;
+ color: #1E2D3B !important;
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+ font-weight: 500 !important;
+
+}
+
+
+
+/*CTA*/
+
+
+
+
+#cta_booking span {
+
+ font-size: 12px !important;
+ font-family: Fira Sans !important;
+ font-weight: 500 !important;
+ font-style: italic !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+#cta_booking:hover {
+ border-radius: 8px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}
+
+#cta_information span {
+ font-size: 12px !important;
+ font-family: Fira Sans !important;
+ font-weight: 500 !important;
+ font-style: italic !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+#cta_information:hover {
+ border-radius: 8px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}
+
+
+.promotion p {
+    padding: 24px !important;
+    font-size: 10px !important;
+
+
+}
+
+.promotion strong {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+}
+
+.product_francy h2 {
+ text-transform: uppercase !important;
+ line-height: 2 !important;
+ font-size: 24px;
+
+}
+
+.product_francy strong {
+    color: #1f2e3b !important;
+
+    font-family: Fira Sans;
+    font-weight: bolder !important;
+    padding: 4px !important;
+}
+
+.toot  {
+
+    font-weight: bold !important;
+    font-family: Fira Sans !important;
+    letter-spacing: 2px !important;
+}
+
+.nectar-highlighted-text strong {
+    line-height: 1.6;
+    font-family: Fira Sans;
+    font-weight: 500;
+}
+.produit h3 {
+    font-size: 12px !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+}
+
+.covid_19 h4{
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px  !important;
+    line-height: 1.6 !important;
+}
+
+.covid_19 strong {
+    font-family: Fira Sans;
+    font-weight: 500;
+}
+
+
+
+.item_prestation_commercial {
+    text-transform: uppercase !important;
+
+}
+
+
+.photo_corporate-savoir h5 {
+    font-family: Fira Sans !important;
+    font-weight: 500;
+    font-size: 12px !important;
+}
+
+.discover_black span  {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    color: #010b13 !important;
+
+
+}
+
+/*----------------form--------------------*/
+.wpcf7-submit {
+font-family: FontAwesome !important;
+background: transparent !important;
+color: #1e2d3b !important;
+font-size:80px !important;
+position: relative !important;
+left: 80% !important;
+top: 18px !important;
+
+
+}
+
+
+
+
+#first_name {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#first_name:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+#email {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+
+}
+
+#phone {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#feedback {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#feedback:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+
+#message {
+    /*border: 0;*/
+    /*border-bottom: 1px solid #8B8B9B;*/
+    border: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    height: 50% !important;
+    resize: none !important;
+    overflow: hidden !important;
+    max-height: 200px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    /*line-height: 1px !important;*/
+    text-transform: uppercase !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
+}
+
+
+
+#message:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+
+.wpcf7 label {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7-list-item {
+    padding: 8px !important;
+    margin-bottom: 4px !important;
+    display: grid !important;
+    grid-template: auto 1fr / auto 1fr auto !important;
+    /*grid-template-columns: repeat(6 , 1fr) !important;*/
+    border: 1px  rgba(255, 255, 255, 0.5) solid  !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+    /*background: red !important;*/
+
+}
+
+.wpcf7-list-item span {
+    font-size: 10px !important;
+    font-weight: 200 !important;
+    width: 100% !important;
+    /*background: purple !important;*/
+    text-align: left !important;
+}
+
+.wpcf7-checkbox input[type=checkbox] {
+content: "";
+}
+
+
+.onglet {
+ color: #1e2d3b !important;
+ font-family: Montserrat !important;
+ letter-spacing: .12rem !important;
+ line-height: 1 !important;
+ font-weight: 900 !important;
+ /*background: purple !important;*/
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: bottom right !important;
+
+}
+
+
+
+/*MESSAGE&REPONSE*/
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 1px solid #00a0d2; /* Blue */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.init .wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450; /* Green */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #ff7675; /* Red */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #fdcb6e; /* Orange */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900; /* Yellow */
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+    font-family: Montserrat !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------FOOTER------------------*/
+
+.adress_insta {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.5px !important;
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ font-family: Montserrat !important;
+ color: #424256 !important;
+}
+
+#widget_flo_instagram-3 h4 {
+    font-size: 40px !important;
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(180deg) !important;
+     font-family: Montserrat !important;
+     font-weight: 400 !important;
+     position: relative !important;
+     top: 204px !important;
+     right: 64px !important;
+     background: white !important;
+    padding: 8px !important;
+     line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+    /*border-left: 1px solid #424256 !important;*/
+
+
+}
+
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+
+
+/*-------------------RESPONSIVE--------------*/
+@media only screen and (max-width: 690px) {
+    .booster h1 {
+        font-size: 24px !important;
+        text-align: center !important;
+        font-family: Cormorant !important;
+        font-weight: 300 !important;
+    }
+
+    .booster strong {
+        font-family: Fira Sans !important;
+        font-weight: 500;
+    }
+
+    .product h2 {
+        font-size: 10px !important;
+        text-align: center !important;
+        padding-top: 6% !important;
+        font-family: Fira Sans !important;
+        font-weight: 300;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+
+    .promotion_mobile p {
+    padding: 24px !important;
+    font-size: 8px !important;
+    text-align: center;
+
+    }
+
+    .promotion_mobile strong {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    }
+
+    #collection {
+        font-size: 10px !important;
+    }
+
+    #section_1{
+        font-size: 18px !important;
+        text-align: center !important;
+        font-family: Cormorant !important;
+        font-weight: 300 !important;
+    }
+
+    #section_1-intro {
+        font-family: Fira Sans !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px  !important;
+        line-height: 1.6 !important;
+        font-weight: 300 !important;
+        font-size: 12px !important;
+
+    }
+
+    body .toggle h3 a {
+
+        font-family: Fira Sans;
+        font-weight: 400;
+        letter-spacing: 1px  !important;
+        line-height: 1.6 !important;
+        font-size: 12px !important;
+
+    }
+
+
+    #annonce_footer {
+        font-size: 12px !important;
+    }
+
+
+}
+
+
+.toggle {
+    background: #F7F7F7;
+    padding: 4%;
+    border-radius: 8px !important;
+    margin: 12px !important;
+}
+
+.logo_responsive {
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+ color: #1E2D3B !important;
+ font-size: 18px !important;
+ text-transform: uppercase !important;
+ text-align: center !important;
+}
+
+.separator_responsive {
+ font-size: 8px !important;
+ color: #1E2D3B !important;
+ text-align: center !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+
+#apropos {
+
+    padding: 4px !important;
+    text-align: center;
+    position: relative;
+    top: 16px;
+    left: 24px;
+}
+
+.contact_informations strong {
+    font-family: Fira Sans !important;
+    font-weight: 400;
+}
+
+.nectar-split-heading h2{
+    line-height: 1.6;
+}
+
+.bio {
+    text-align: left;
+}
+
+.bio span {
+    font-size: 14px !important;
+    font-style: italic;
+}
+
+
+/*------------------DERNIERS PHOTOS CORPORATE*/
+.tabbed[data-style="minimal"] .wpb_tabs_nav {
+    font-size: 12px !important;
+    color: #1F2E3B;
+    font-weight: 400;
+}
+
+
+
+.tabbed[data-style*="minimal"] >ul li a:after {
+ height: 2px !important;
+}
