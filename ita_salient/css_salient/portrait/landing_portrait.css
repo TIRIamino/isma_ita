@@ -1,40 +1,33 @@
 /*---------------------------HEADER-----------------------------------*/
-body strong {
+/*body strong {
     font-family: Fira Sans !important;
-}
+}*/
 
+
+/*-------------------HEADER*/
 /*LOGO*/
 .logo {
  font-family: Cormorant !important;
- font-weight: 300 !important;
- color: #1E2D3B !important;
+ font-weight: 300;
+ text-align: center !important;
+ font-size: 24px;
 }
 
-
-.separator {
- font-size: 10px !important;
-}
 
 /*COLLECTION*/
-.item_collection {
+
+#text_collection {
+  letter-spacing: 1.2px;
+}
+
+#item_collection {
  font-family: Cormorant !important;
- font-size: 56px !important;
  font-weight: 300 !important;
 }
 
-.product_h1 {
-    font-family: Fira Sans !important;
+#product_h2 {
     font-size: 11px !important;
-    font-weight: 300 !important;
-    color: #1E2D3B !important;
-    text-transform: uppercase !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    width:70% !important;
-    font-style: justify !important;
-
-
-    /*font-variant: small-caps !important;*/
+    letter-spacing: 1.1px !important;
 }
 
 .price {
@@ -237,25 +230,19 @@ body strong {
  font-family: Cormorant !important;
  font-weight: 300 !important;
  color: white !important;
- font-size: 18px !important;
- text-transform: uppercase !important;
- text-align: center !important;
 }
 
-.separator_responsive {
+.subtitle_logo_responsive {
  font-size: 8px !important;
  color: white !important;
- text-align: center !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
 }
 
-.item_collection_responsive {
+/*.item_collection_responsive {
  font-family: Cormorant !important;
  font-size: 32px !important;
  font-weight: 300 !important;
  color: white !important;
-}
+}*/
 
 /*.responsive_h1 h1 {
     font-family: Fira Sans !important;
@@ -268,18 +255,22 @@ body strong {
 
 }*/
 
-@media only screen and (max-width: 690px) {
-    .wpb_wrapper h1.vc_custom_heading {
+@media only screen and (max-width: 800px) {
+  #item_collection {
+    color: white !important;
+    font-size: 32px !important;
+  }
+  .product_h2 h2 {
         font-family: Fira Sans !important;
         font-size: 10px !important;
         font-weight: 300 !important;
         color: white !important;
-        text-transform: uppercase !important;
         line-height: 1.6 !important;
-        letter-spacing: 1px !important;
         margin: auto;
-
-    }
+  }
+  .product_h2 strong a {
+    color: white;
+  }
 
 
 }
