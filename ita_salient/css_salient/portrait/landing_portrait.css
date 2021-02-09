@@ -237,23 +237,7 @@
  color: white !important;
 }
 
-/*.item_collection_responsive {
- font-family: Cormorant !important;
- font-size: 32px !important;
- font-weight: 300 !important;
- color: white !important;
-}*/
 
-/*.responsive_h1 h1 {
-    font-family: Fira Sans !important;
- font-size: 6px !important;
- font-weight: 300 !important;
- color: white !important;
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
-
-}*/
 
 @media only screen and (max-width: 800px) {
   #item_collection {
