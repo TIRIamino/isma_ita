@@ -56,11 +56,7 @@ body h1 {
     text-transform: uppercase !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
-
     font-style: justify !important;
-
-
-    /*font-variant: small-caps !important;*/
 }
 
 
@@ -71,25 +67,16 @@ body h1 {
  line-height: 1.6 !important;
  letter-spacing: 2px !important;
  font-weight: 500 !important;
-
 }
 
-
-
 /*CTA*/
-
-
-
-
 #cta_booking span {
-
  font-size: 12px !important;
  font-family: Fira Sans !important;
  font-weight: 500 !important;
  font-style: italic !important;
  line-height: 1.6 !important;
  letter-spacing: 1px !important;
-
 }
 
 #cta_booking:hover {
@@ -116,12 +103,10 @@ body h1 {
  transition-property: transform !important;
 }
 
-
+/*TEXT DE PROMOTION*/
 .promotion p {
     padding: 24px !important;
     font-size: 10px !important;
-
-
 }
 
 .promotion strong {
@@ -129,11 +114,12 @@ body h1 {
     font-weight: 400 !important;
 }
 
+
+/*SECOND PART*/
 .product_francy h2 {
  text-transform: uppercase !important;
  line-height: 2 !important;
  font-size: 24px;
-
 }
 
 .product_francy strong {
@@ -144,8 +130,8 @@ body h1 {
     padding: 4px !important;
 }
 
-.toot  {
 
+.toot  {
     font-weight: bold !important;
     font-family: Fira Sans !important;
     letter-spacing: 2px !important;
@@ -176,12 +162,9 @@ body h1 {
 }
 
 
-
 .item_prestation_commercial {
     text-transform: uppercase !important;
-
 }
-
 
 .photo_corporate-savoir h5 {
     font-family: Fira Sans !important;
@@ -197,8 +180,6 @@ body h1 {
     text-transform: uppercase !important;
     font-size: 12px !important;
     color: #010b13 !important;
-
-
 }
 
 /*----------------form--------------------*/
@@ -210,12 +191,7 @@ font-size:80px !important;
 position: relative !important;
 left: 80% !important;
 top: 18px !important;
-
-
 }
-
-
-
 
 #first_name {
     border: 0;
@@ -252,7 +228,6 @@ top: 18px !important;
     letter-spacing: .12rem !important;
     line-height: 1 !important;
     text-transform: uppercase !important;
-
 }
 
 #phone {
@@ -316,13 +291,10 @@ top: 18px !important;
     border-radius: 8px !important;
 }
 
-
-
 #message:hover {
     font-weight: 500 !important;
     font-style: italic !important;
 }
-
 
 .wpcf7 label {
     font-family: Fira Sans !important;
@@ -346,8 +318,6 @@ top: 18px !important;
     align-items: center !important;
     justify-content: center !important;
     border-radius: 8px !important;
-    /*background: red !important;*/
-
 }
 
 .wpcf7-list-item span {
@@ -361,22 +331,6 @@ top: 18px !important;
 .wpcf7-checkbox input[type=checkbox] {
 content: "";
 }
-
-
-.onglet {
- color: #1e2d3b !important;
- font-family: Montserrat !important;
- letter-spacing: .12rem !important;
- line-height: 1 !important;
- font-weight: 900 !important;
- /*background: purple !important;*/
- text-transform: uppercase !important;
- transform: rotate(90deg) !important;
- transform-origin: bottom right !important;
-
-}
-
-
 
 /*MESSAGE&REPONSE*/
 
@@ -403,7 +357,6 @@ content: "";
     border-color: #ff7675; /* Red */
     font-family: Fira Sans !important;
     text-transform: uppercase !important;
-
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
@@ -432,85 +385,58 @@ content: "";
     font-family: Montserrat !important;
 }
 
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
+}
 
+.footer_mobile {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
+}
 
-
-
-
-
-
-
-
-/*--------------------------------FOOTER------------------*/
-
+/*instagram*/
 .adress_insta {
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1.5px !important;
- font-size: 10px !important;
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
  font-weight: 400 !important;
- font-family: Montserrat !important;
- color: #424256 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
 }
 
 #widget_flo_instagram-3 h4 {
-    font-size: 40px !important;
     color: #424256 !important;
     text-transform: uppercase !important;
     writing-mode: vertical-lr !important;
     text-orientation: mixed !important;
-     transform: rotate(180deg) !important;
-     font-family: Montserrat !important;
-     font-weight: 400 !important;
-     position: relative !important;
-     top: 204px !important;
-     right: 64px !important;
-     background: white !important;
+    transform: rotate(180deg) !important;
+    font-family: Fira Sans !important;
+    position: relative !important;
+    top: 204px !important;
+    right: 64px !important;
+    background: white !important;
     padding: 8px !important;
-     line-height: 1.6 !important;
+    line-height: 1.6 !important;
     letter-spacing: 1.5px !important;
     border-right: 1px solid #424256 !important;
-    /*border-left: 1px solid #424256 !important;*/
-
-
 }
-
 
 body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
     font-size: 9px !important;
     font-weight: 400 !important;
 }
 
-
-
-/*-------------------FOOTER_NAV---------------------*/
-.footer_menu {
-    font-family: 'Fira Sans' !important;
-    font-size: 12px !important;
-    display: inline-block !important;
-    padding: 20px !important;
-    text-align: center !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    font-weight: 400 !important;
-    color: #424256 !important;
-}
-
-.footer_mobile {
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-size: 10px !important;
-}
-
-.separrator h4 {
-    text-transform: uppercase !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1px !important;
-    font-size: 10px !important;
-    font-weight: 300 !important;
-    font-family: Fira Sans !important;
-    text-align: center !important;
-}
 
 
 
@@ -578,12 +504,19 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
         letter-spacing: 1px  !important;
         line-height: 1.6 !important;
         font-size: 12px !important;
-
     }
-
-
     #annonce_footer {
         font-size: 12px !important;
+    }
+
+    #separrator {
+      text-transform: uppercase;
+      line-height: 1.6;
+      font-size: 10px !important;
+      letter-spacing: 1px;
+      font-weight: 300 !important;
+      font-family: Fira Sans !important;
+      text-align: center;
     }
 
 
