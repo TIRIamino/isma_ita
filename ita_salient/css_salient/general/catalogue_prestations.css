@@ -33,11 +33,14 @@
     font-style: italic;
 }
 
+.description_prestation {
+  letter-spacing: 1.2px !important;
+}
+
 /*Photo prestation*/
 .border_line_picture {
     border-bottom: .5px solid #1E2D3B;
 }
-
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
