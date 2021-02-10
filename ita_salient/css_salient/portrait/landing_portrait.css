@@ -1,8 +1,4 @@
 /*---------------------------HEADER-----------------------------------*/
-/*body strong {
-    font-family: Fira Sans !important;
-}*/
-
 
 /*-------------------HEADER*/
 /*LOGO*/
@@ -26,89 +22,51 @@
 }
 
 #product_h2 {
-    font-size: 11px !important;
+    font-size: 10px !important;
     letter-spacing: 1.1px !important;
 }
 
+
+
 .price {
- font-size: 12px !important;
- color: #1E2D3B !important;
- text-transform: uppercase !important;
- line-height: 1.6 !important;
  letter-spacing: 2px !important;
  font-weight: 500 !important;
-
 }
 
 /*CTA*/
-
-
-/*#cta_booking {
- border-radius: 4px !important;
- transform: scale(1);
- transition-duration: 2s !important;
- transition-property: transform !important;
-}*/
-
-#cta_booking {
-    position: relative !important;
-    top: -30px !important;
+/*Button propriété générale*/
+.nectar-button span {
+ font-size: 12px !important;
+ font-style: italic !important;
+ letter-spacing: 1.6px !important;
 }
 
-#cta_booking span {
-    font-weight: 500 !important;
+.nectar-button:hover span {
+  font-weight: 400 !important;
 }
-
+/*Réservez une séance*/
 #cta_booking:hover {
-    background: transparent !important;
-    color:#1E2D3B !important;
-    font-weight: 700 !important;
+    background: #1E2D3B !important;
+    color:#F7FBFC !important;
     border: 1px solid #1E2D3B !important;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
-    transform: scale(1.02);
-
+    opacity: .8;
+    transition: none !important;
 }
-
+/*En savoir +*/
 #cta_information {
     background: transparent !important;
     border: 1px solid #1E2D3B !important;
     color: #1E2D3B !important;
-    postion:relative !important;
-    top: -30px !important;
-
-
 }
-
 
 #cta_information:hover {
     background: #1E2D3B !important;
     color: white !important;
-    transform: scale(1.02);
-    font-weight: 500 !important;
-}
-
-
-.nectar-button span {
- border-radius: 8px !important;
- font-size: 12px !important;
- font-family: Fira Sans !important;
- font-weight: 700 !important;
- font-style: italic !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
-}
-
-.nectar-button {
-
- border-radius: 8px !important;
- transform: scale(1);
- transition-duration: 2s !important;
- transition-property: transform !important;
 }
 
 /*MANIFESTO*/
 #manifesto {
- font-family: Montserrat !important;
+ font-family: Fira Sans !important;
  line-height: 1.6 !important;
  letter-spacing: 1px !important;
 }
