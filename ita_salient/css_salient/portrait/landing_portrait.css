@@ -44,22 +44,22 @@
 }
 /*Réservez une séance*/
 #cta_booking:hover {
-    background: #1E2D3B !important;
-    color:#F7FBFC !important;
-    border: 1px solid #1E2D3B !important;
-    opacity: .8;
-    transition: none !important;
+  background: #1E2D3B !important;
+  color:#F7FBFC !important;
+  border: 1px solid #1E2D3B !important;
+  opacity: .8;
+  transition: none !important;
 }
 /*En savoir +*/
 #cta_information {
-    background: transparent !important;
-    border: 1px solid #1E2D3B !important;
-    color: #1E2D3B !important;
+  background: transparent !important;
+  border: 1px solid #1E2D3B !important;
+  color: #1E2D3B !important;
 }
 
 #cta_information:hover {
-    background: #1E2D3B !important;
-    color: white !important;
+  background: #1E2D3B !important;
+  color: white !important;
 }
 
 
@@ -85,13 +85,13 @@
   letter-spacing: 1.2px;
 }
 
-.onglet_part_mobile {
- font-weight: 500 !important;
+.onglet_part {
  letter-spacing: 1.4px;
- text-transform: uppercase !important;
  transform: rotate(90deg) !important;
  transform-origin: top right !important;
 }
+
+.onglet_part {}
 
 /*#e1e7e7*/
 
@@ -194,13 +194,30 @@
   .product_h2 strong a {
     color: white;
   }
+  .onglet_part {
+   font-family: Fira Mono !important;
+   font-size: 14px!important;
+  }
+
+  #onglet_biographie {
+   font-size: 14px !important;
+  }
+  #onglet_solo {
+   font-size: 14px !important;
+  }
+  #onglet_couple {
+   font-size: 14px !important;
+  }
+  #onglet_famille {
+   font-size: 14px !important;
+  }
 
 
 }
 
 
 @media only screen and (max-width: 690px) {
-.wpb_wrapper h2.vc_custom_heading  {
+/*.wpb_wrapper h2.vc_custom_heading  {
         font-family: Cormorant !important;
         font-size: 16px !important;
         font-weight: 300 !important;
@@ -208,7 +225,7 @@
         text-transform: uppercase !important;
         line-height: 1.6 !important;
         letter-spacing: 1px !important;
-    }
+    }*/
 }
 
 
