@@ -26,8 +26,6 @@
     letter-spacing: 1.1px !important;
 }
 
-
-
 .price {
  letter-spacing: 2px !important;
  font-weight: 500 !important;
@@ -64,50 +62,38 @@
     color: white !important;
 }
 
-/*MANIFESTO*/
 
-.product_h2 {
- text-transform: uppercase !important;
-}
+/*---------About*/
 
-.citation {
- text-transform: uppercase !important;
-
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
- font-size: 12px !important;
- font-family: Cormorant !important;
- font-weight: 300 !important;
-}
-
-
-/*About*/
-.text_descriptif {
- font-family: Fira Sans !important;
- font-size: 12px !important;
- font-weight: 300 !important;
- color: #1E2D3B !important;
- /*font-variant: small-caps !important;*/
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
+.text_biography {
  width: 88% !important;
 }
 
-.bio {
-
-    text-align: left !important;
-}
-
-.bio span {
+/*Lien vers la page about*/
+.cta_bio span {
  font-family: Cormorant !important;
  font-style: italic !important;
  font-size: 14px !important;
  text-transform: uppercase !important;
-
 }
 
+.border_line_picture {
+    border-bottom: 2px solid #1e2d3b;
+}
 
+#title_social_media {
+  letter-spacing: 1.2px;
+}
+
+.onglet_part_mobile {
+ font-weight: 500 !important;
+ letter-spacing: 1.4px;
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: top right !important;
+}
+
+/*#e1e7e7*/
 
 .item_descriptif h3 {
  font-family: Fira Sans !important;
@@ -276,15 +262,6 @@
 
 
 
-.titi {
- color: #E1E7E7 !important;
- font-family: Montserrat !important;
- font-weight: 400 !important;
- /*background: purple !important;*/
- text-transform: uppercase !important;
- transform: rotate(90deg) !important;
- transform-origin: top right !important;
-}
 
 .collection_portrait h2{
  font-family: Fira Sans !important;
