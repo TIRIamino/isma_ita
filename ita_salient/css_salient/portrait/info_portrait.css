@@ -1,0 +1,244 @@
+/*------------------section HEADER-------------------------------- */
+.logo {
+  font-family: Cormorant !important;
+  font-weight: 300 !important;
+}
+.logo_responsive {
+  font-family: Cormorant !important;
+  font-weight: 300;
+}
+.subtitle_logo_responsive {
+  font-size: 8px;
+  position: relative;
+  top: -24px;
+}
+
+/*-------------------h1---------------------------------------------*/
+#information_top_h1 {
+  font-family: Fira Mono !important;
+  font-weight: 400 !important;
+  width: 110% !important;
+}
+
+@media only screen and (max-width: 690px) {
+  #information_top_h1 {
+    font-size: 6px !important;
+    /* transform: rotate(90deg) !important;
+    transform-origin: bottom right !important;
+    text-align: right !important;
+    position:relative;
+    top: 300px;
+    right: 32px; */
+    font-family: Fira Mono !important;
+    letter-spacing: 1.6px;
+  }
+}
+/*-------------------P => text descriptif au top---------------------------------------------*/
+.subtitle_header {
+  width: 90% !important;
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+}
+
+.tarif {
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+}
+
+.portrait {
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.product_cta h5 {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  font-style: italic !important;
+}
+
+.collection {
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  text-align: center !important;
+  font-size: 12px !important;
+}
+
+.collection strong {
+  font-weight: 700 !important;
+  font-family: Fira Sans !important;
+  letter-spacing: 2px !important;
+}
+
+.nectar-button {
+  border-radius: px !important;
+  font-size: 10px !important;
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  margin-top: 8px !important;
+}
+
+.item {
+  border-radius: 4px !important;
+  width: 90% !important;
+}
+
+.nectar-button .button_formule:hover {
+  background: red !important;
+}
+
+.nectar-icon-list h4 {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+}
+
+.collection_card {
+  font-style: italic !important;
+  text-transform: capitalize !important;
+}
+
+.card_prestation:hover {
+  background: #fcfcfc !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  padding: 2% !important;
+  border-radius: 2px !important;
+}
+
+.test {
+  background: rgba(243, 242, 239, 0.9) !important;
+  margin-left: 88px !important;
+  margin-right: 88px !important;
+
+  font-style: italic !important;
+}
+
+.nectar-icon-list h4 {
+  color: #1f2e3b !important;
+  font-family: Fira Sans !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+.nectar-icon-list-item .content {
+  font-size: 12px !important;
+  color: #404054 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-family: Fira Sans !important;
+  text-transform: uppercase !important;
+  font-variant: small-caps !important;
+}
+
+.nectar-carousel-fixed-content p {
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 12px !important;
+}
+
+.nectar_single_testimonial p {
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  font-family: Fira Sans !important;
+  border: none !important;
+}
+
+.inner-wrap {
+  border: none !important;
+}
+
+.toggle.default a {
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+}
+
+.wrap span {
+  font-size: 12px !important;
+}
+
+.toggle.default p {
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+}
+
+.retouche {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.retouch_title {
+  font-family: Fira Sans !important;
+  font-size: 11px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  font-weight: 400 !important;
+}
+
+.annonce_reservation {
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+  font-family: "Fira Sans" !important;
+  font-size: 12px !important;
+  display: inline-block !important;
+  padding: 20px !important;
+  text-align: center !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 400 !important;
+  color: #424256 !important;
+}
+
+.subtitle {
+  text-transform: uppercase !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  font-family: Fira Sans !important;
+  text-align: center !important;
+}
+
+.separrator h4 {
+  text-transform: uppercase !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 10px !important;
+  font-weight: 300 !important;
+  font-family: Fira Sans !important;
+  text-align: center !important;
+}
+
+.footer_mobile {
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
+  font-size: 10px !important;
+}
