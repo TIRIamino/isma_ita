@@ -1,6 +1,7 @@
 /*---------------------------HEADER-----------------------------------*/
 
 /*-------------------HEADER*/
+
 /*LOGO*/
 .logo {
   font-family: Cormorant !important;
@@ -28,7 +29,9 @@
 
 .price {
   letter-spacing: 2px !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
+  font-family: Fira Mono !important;
+  font-size: 12px !important;
 }
 
 /*CTA*/
@@ -62,6 +65,7 @@
   color: white !important;
 }
 
+
 /*---------About*/
 
 .text_biography {
@@ -88,8 +92,6 @@
   font-family: Fira Sans !important;
   font-weight: 300 !important;
   font-size: 10px !important;
-  line-height: 1.6 !important;
-  color: #1e2d3b !important;
 }
 
 .collection_portrait strong {
@@ -141,10 +143,6 @@
   letter-spacing: 2px !important;
 }
 
-/* .tata {
-    width: 80% !important;
-} */
-
 #cta_booking_top {
   border-radius: 8px !important;
   border: 0.5px solid white !important;
@@ -162,58 +160,35 @@
 #cta_booking_presta {
   border-radius: 8px !important;
   border: 0.5px solid #1e2d3b !important;
-  background: transparent !important;
+  background: #1e2d3b !important;
 }
 
 #cta_booking_presta span {
-  font-family: Cormorant !important;
+  font-family: Fira Sans !important;
   font-size: 12px !important;
   font-style: italic !important;
-  color: #1e2d3b !important;
+  color: white !important;
   font-weight: 300 !important;
-}
-
-#product_h1_mobile {
-  padding-left: 50px !important;
 }
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
-  font-family: "Fira Sans" !important;
+  font-family: Fira Sans !important;
   font-size: 12px !important;
-  display: inline-block !important;
-  padding: 20px !important;
-  text-align: center !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1.5px !important;
-  font-weight: 400 !important;
-  color: #424256 !important;
-}
-
-.subtitle {
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-size: 14px !important;
-  font-weight: 300 !important;
-  font-family: Fira Sans !important;
-  text-align: center !important;
-}
-
-.separrator h4 {
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-size: 10px !important;
-  font-weight: 300 !important;
-  font-family: Fira Sans !important;
-  text-align: center !important;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #424256;
 }
 
 .footer_mobile {
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
+  line-height: 1.6;
+  letter-spacing: 1px;
   font-size: 10px !important;
+  font-weight: 400;
 }
 
 /*---------------------responsive -----------------------*/
@@ -227,6 +202,11 @@
   font-size: 8px !important;
   color: white !important;
 }
+
+#product_h1_mobile {
+  padding-left: 50px !important;
+}
+
 
 @media only screen and (max-width: 800px) {
   #item_collection {
@@ -276,6 +256,15 @@
     font-size: 14px !important;
     line-height: 1.6;
   }
+  #separrator {
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center;
+  }
 }
 
 .item_descriptif_responsive h3 {
@@ -283,20 +272,12 @@
   font-size: 10px !important;
   font-weight: 300 !important;
   color: #1e2d3b !important;
-  text-transform: uppercase !important;
   line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }
 
 .item_descriptif_responsive strong {
-  font-family: Fira Sans !important;
   font-size: 10px !important;
   font-weight: 500 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }
 
 .item_descriptif_responsive em {
@@ -304,9 +285,4 @@
   font-size: 10px !important;
   font-weight: 300 !important;
   font-style: italic !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }

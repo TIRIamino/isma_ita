@@ -33,7 +33,7 @@
     font-style: italic;
 }
 
-.description_prestation {
+#description_prestation {
   letter-spacing: 1.2px !important;
 }
 
@@ -106,6 +106,12 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
       font-weight: 300 !important;
       font-family: Fira Sans !important;
       text-align: center !important;
+    }
+
+    #description_prestation {
+      font-size: 12px !important;
+      text-align: justify-all;
+      letter-spacing
     }
 
     .collection h2{
