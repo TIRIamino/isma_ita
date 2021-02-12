@@ -1,8 +1,8 @@
 /*PRESTATIONS MANNEQUIN MOBILE*/
 
 .team-member {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
 }
 
 .team-member h5 {
@@ -24,7 +24,7 @@
   font-size: 10px !important;
   font-family: Fira Sans !important;
   font-weight: 300 !important;
-  color: #1E2D3B !important;
+  color: #1e2d3b !important;
   text-transform: uppercase !important;
   line-height: 1.6 !important;
   letter-spacing: 1.5px !important;
@@ -35,7 +35,6 @@
   position: relative !important;
   top: -10px !important;
   left: 48px !important;
-
 }
 
 .team-desc {
@@ -47,14 +46,13 @@
   font-size: 10px !important;
 }
 .bottom_meta i {
- font-size: 60px !important;
- color: #18242f !important;
+  font-size: 60px !important;
+  color: #18242f !important;
 }
 
 .nectar_team_member_overlay .team_member_details .bio-inner .mobile-close {
-    margin-top: 30px !important;
+  margin-top: 30px !important;
 }
-
 
 /*------------------------------------*/
 /*PRESTATIONS MANNEQUIN*/
@@ -88,7 +86,7 @@
 
 /*collection book- beauty - editorial*/
 .collection {
- letter-spacing: 1.6px;
+  letter-spacing: 1.6px;
 }
 
 /*annonce_prestation pola*/
@@ -100,25 +98,25 @@
 }
 
 .prestation_black strong {
-    font-weight: 500 !important;
-    background: rgba(247,247,247,0.26);
-    padding-left: 2px;
-    padding-right: 2px;
+  font-family: Fira Mono !important;
+  background: rgba(247, 247, 247, 0.26);
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .prestation {
- font-family: Fira Sans !important;
- font-size: 11px !important;
- font-weight: 300 !important;
- color: #1E2D3B !important;
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
+  font-family: Fira Mono !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  color: #1e2d3b !important;
+  text-transform: uppercase !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1px !important;
 }
 
 /*PLUS D'INFORMATION CTA*/
 /*pola*/
-.discover_white h3  {
+.discover_white h3 {
   line-height: 1.6 !important;
   letter-spacing: 1.6px !important;
   text-transform: uppercase !important;
@@ -127,7 +125,7 @@
   font-family: Fira Sans !important;
   font-weight: 500 !important;
 }
-.discover_black h3  {
+.discover_black h3 {
   line-height: 1.6 !important;
   letter-spacing: 1px !important;
   text-transform: uppercase !important;
@@ -151,54 +149,56 @@
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
-    font-family: Fira Sans !important;
-    font-size: 12px !important;
-    display: inline-block;
-    padding: 20px;
-    text-align: center;
-    line-height: 1.6;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    color: #424256;
+  font-family: Fira Sans !important;
+  font-size: 12px !important;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #424256;
 }
 
 .footer_mobile {
-    line-height: 1.6;
-    letter-spacing: 1px;
-    font-size: 10px !important;
-    font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 10px !important;
+  font-weight: 400;
 }
 
 /*instagram*/
 .adress_insta {
- line-height: 1.6;
- letter-spacing: 2px;
- font-size: 8px !important;
- font-weight: 400 !important;
- font-family: Fira Sans !important;
- color: #424256;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 8px !important;
+  font-weight: 400 !important;
+  font-family: Fira Sans !important;
+  color: #424256;
 }
 
 #widget_flo_instagram-3 h4 {
-    color: #424256 !important;
-    text-transform: uppercase !important;
-    writing-mode: vertical-lr !important;
-    text-orientation: mixed !important;
-    transform: rotate(180deg) !important;
-    font-family: Fira Sans !important;
-    position: relative !important;
-    top: 204px !important;
-    right: 64px !important;
-    background: white !important;
-    padding: 8px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    border-right: 1px solid #424256 !important;
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
 }
 
-body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
-    font-size: 9px !important;
-    font-weight: 400 !important;
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
 }
 
 /*----------------------*/
@@ -209,7 +209,7 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
     padding-left: 2%;
   }
 
-/*FOOTER*/
+  /*FOOTER*/
   #separrator {
     text-transform: uppercase;
     line-height: 1.6;

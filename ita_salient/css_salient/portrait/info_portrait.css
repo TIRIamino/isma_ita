@@ -23,12 +23,12 @@
 @media only screen and (max-width: 690px) {
   #information_top_h1 {
     font-size: 6px !important;
-    /* transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
     transform-origin: bottom right !important;
     text-align: right !important;
-    position:relative;
+    position: relative;
     top: 300px;
-    right: 32px; */
+    right: 32px;
     font-family: Fira Mono !important;
     letter-spacing: 1.6px;
   }
