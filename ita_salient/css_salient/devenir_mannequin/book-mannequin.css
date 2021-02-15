@@ -95,16 +95,14 @@
   font-weight: 400 !important;
   line-height: 1.6 !important;
   letter-spacing: 1px !important;
-  font-family: Fira Mono !important;
 }
 
 .prestation_black strong {
-  font-family: Fira Mono !important;
-  font-size: 12px !important;
-  color: #daac50 !important;
-  letter-spacing: 2px !important;
-  padding-left: 2px;
-  padding-right: 2px;
+    font-size: 12px !important;
+    color: #daac50 !important;
+    letter-spacing: 2px !important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .prestation {
@@ -116,11 +114,10 @@
 }
 
 .prestation strong {
-  font-family: Fira Mono !important;
-  font-size: 12px !important;
-  color: #daac50 !important;
-  letter-spacing: 2px !important;
-  font-weight: 500;
+    font-size: 12px !important;
+    color: #daac50 !important;
+    letter-spacing: 2px !important;
+    font-weight: 500;
 }
 
 /*PLUS D'INFORMATION CTA*/
