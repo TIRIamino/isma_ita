@@ -1,49 +1,49 @@
 /*####BUTTON*/
 .button_home {
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    font-style: italic !important;
-    font-family: Fira Sans !important;
-    padding: 8px 16px!important;
-    width: 200px !important;
-    height: 40px !important;
-    color: #1e2d3b !important;
-    cursor: pointer !important;
-    outline: none !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  font-family: Fira Sans !important;
+  padding: 8px 16px !important;
+  width: 200px !important;
+  height: 40px !important;
+  color: #1e2d3b !important;
+  cursor: pointer !important;
+  outline: none !important;
 }
 
 .button_home:hover {
-    background: rgba(250, 250, 250, 0,1) !important;
-    box-shadow: none !important;
-    border: none !important;
-    color: #daac50 !important;
+  background: rgba(250, 250, 250, 0, 1) !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: #daac50 !important;
 }
 
 /*#button part1*/
 .button_nav1 {
-    text-transform: uppercase !important;
-    background: /*rgba(245,243,240,0.25)*/ transparent;
-    padding: 2%;
-    font-size: 14px !important;
-    font-family: Fira Sans !important;
-    text-align: center !important;
-    color: #424256 !important;
-    border: 1px solid rgba(245,243,240,0.95) !important;
-    border-radius: 4px;
+  text-transform: uppercase !important;
+  background: /*rgba(245,243,240,0.25)*/ transparent;
+  padding: 2%;
+  font-size: 14px !important;
+  font-family: Fira Sans !important;
+  text-align: center !important;
+  color: #424256 !important;
+  border: 1px solid rgba(245, 243, 240, 0.95) !important;
+  border-radius: 4px;
 }
 
 .button_nav1:hover {
-    background: #1e2d3b !important;
-    color: white !important;
-    font-weight: 400;
+  background: #1e2d3b !important;
+  color: white !important;
+  font-weight: 400;
 }
 
 .button_nav1 a {
-    font-weight: 300;
-    line-height: 1.6 !important;
-    letter-spacing: 1.6px !important;
+  font-weight: 300;
+  line-height: 1.6 !important;
+  letter-spacing: 1.6px !important;
 }
 
 /*-------------------------------------------------*/
@@ -51,148 +51,149 @@
 
 /*a collection of photographs by =>desktop */
 .title_home p {
-    line-height: 8px !important;
-    font-size: 10px !important;
+  line-height: 8px !important;
+  font-size: 10px !important;
 }
 
 /*Fashion moment .... ismahane tabet aoul => mobile */
 .title_home {
-    line-height: 32px !important;
-    font-size: 24px !important;
-    font-family: Cormorant !important;
+  line-height: 32px !important;
+  font-size: 24px !important;
+  font-family: Cormorant !important;
 }
 
 .title_home em {
-    text-transform: lowercase !important;
+  text-transform: lowercase !important;
 }
 
 /*a collection of photographs by =>mobile */
 .title_mobile_home p {
-    line-height: 6px !important;
-    font-size: 8px !important;
+  line-height: 6px !important;
+  font-size: 8px !important;
 }
 
 .title_mobile_home {
-    line-height: 10px !important;
-    font-size: 10px !important;
+  line-height: 10px !important;
+  font-size: 10px !important;
 }
 
 .title_mobile_home em {
-    font-style: italic !important;
-    text-transform: lowercase !important;
+  font-style: italic !important;
+  text-transform: lowercase !important;
 }
 
 /*-------------------PRESTATIONS---------------------*/
 #title_prestation_home {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .text_prestation_home a {
-    font-family: Fira Sans !important;
-    font-weight: 400;
-    color: #daac50;
+  font-family: Fira Sans !important;
+  font-weight: 400;
+  color: #daac50;
 }
 
 .nectar-fancy-box h3 {
-    color: #1e2e3b !important;
-    background: rgba(245,243,240,0.95);
-    font-style: italic;
-    padding: 6px;
-    width: 70%;
-    font-size: 12px !important;
+  color: #1e2e3b !important;
+  background: rgba(245, 243, 240, 0.95);
+  font-style: italic;
+  padding: 6px;
+  width: 70%;
+  font-size: 12px !important;
 }
 
 .nectar-fancy-box h4 {
-    color: #1e2e3b !important;
-    opacity: .95;
-    font-weight: 500;
-    background: rgba(245,243,240,0.5);;
-    padding-left: 6%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-family: Fira Sans !important;
-    font-weight: 400 !important;
-    font-size: 9px !important;
-    border-radius: 4px;
-    letter-spacing: 1.5;
+  color: #1e2e3b !important;
+  opacity: 0.95;
+  font-weight: 500;
+  background: rgba(245, 243, 240, 0.5);
+  padding-left: 6%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: Fira Sans !important;
+  font-weight: 400 !important;
+  font-size: 9px !important;
+  border-radius: 4px;
+  letter-spacing: 1.5;
 }
 
 .nectar-fancy {
-    border-bottom: .5px solid #1E2D3B !important;
+  border-bottom: 0.5px solid #1e2d3b !important;
 }
 
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
-    font-family: Fira Sans !important;
-    font-size: 12px !important;
-    display: inline-block;
-    padding: 20px;
-    text-align: center;
-    line-height: 1.6;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    color: #424256;
+  font-family: Fira Sans !important;
+  font-size: 12px !important;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #424256;
 }
 
 .footer_mobile {
-    line-height: 1.6;
-    letter-spacing: 1px;
-    font-size: 10px !important;
-    font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 10px !important;
+  font-weight: 400;
 }
 
 /*instagram*/
 .adress_insta {
- line-height: 1.6;
- letter-spacing: 2px;
- font-size: 8px !important;
- font-weight: 400 !important;
- font-family: Fira Sans !important;
- color: #424256;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 8px !important;
+  font-weight: 400 !important;
+  font-family: Fira Sans !important;
+  color: #424256;
 }
 
 #widget_flo_instagram-3 h4 {
-    color: #424256 !important;
-    text-transform: uppercase !important;
-    writing-mode: vertical-lr !important;
-    text-orientation: mixed !important;
-    transform: rotate(180deg) !important;
-    font-family: Fira Sans !important;
-    position: relative !important;
-    top: 204px !important;
-    right: 64px !important;
-    background: white !important;
-    padding: 8px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    border-right: 1px solid #424256 !important;
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
 }
 
-body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
-    font-size: 9px !important;
-    font-weight: 400 !important;
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
 }
-
 
 /*----------------------*/
 /*RESPONSIVE*/
 @media only screen and (max-width: 690px) {
-    #title_prestation_home {
-        font-size: 12px !important;
-    }
+  #title_prestation_home {
+    font-size: 12px !important;
+  }
 
-    /*#PHOTOGRAPHE PROFESSIONNNEL MODE & PORTRAIT | SAINT ETIENNE, LOIRE | LYON RHONE*/
-    #photographe_pro {
-        font-size: 7px !important;
-        position: relative;
-        top: -5px;
-    }
+  /*#PHOTOGRAPHE PROFESSIONNNEL MODE & PORTRAIT | SAINT ETIENNE, LOIRE | LYON RHONE*/
+  #photographe_pro {
+    font-size: 6px !important;
+    position: relative;
+    top: -5px;
+  }
 
-    .nectar-fancy-box h3 {
-        font-size: 11px !important;
-    }
+  .nectar-fancy-box h3 {
+    font-size: 11px !important;
+  }
 
-    #separrator {
+  #separrator {
     text-transform: uppercase;
     line-height: 1.6;
     font-size: 10px !important;
