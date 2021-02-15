@@ -23,25 +23,22 @@
 @media only screen and (max-width: 690px) {
   #information_top_h1 {
     font-size: 8px !important;
-    /*transform: rotate(90deg) !important;
-    transform-origin: bottom right !important;
-     text-align: right !important;
-    position: relative;
-    top: 300px;
-    right: 32px;*/
-
     letter-spacing: 1.2px;
+  }
+
+  #title_card {
+    font-size: 16px !important;
+  }
+
+  .tarif {
+    padding-left: 16px;
+  }
+
+  .retouch_title h2 {
+    font-size: 12px !important;
   }
 }
 /*-------------------P => text descriptif au top---------------------------------------------*/
-/*.subtitle_header {
-  width: 90% !important;
-  font-weight: 300 !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}*/
-
-
 
 .tarif {
   line-height: 1.6 !important;
@@ -63,18 +60,24 @@
   letter-spacing: 2px !important;
 }
 
+.card_prestation {
+  border-radius: 2px;
+  padding: 2% !important;
+  background: #fcfcfc !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+}
+/*
 .portrait {
   line-height: 1.6 !important;
   letter-spacing: 1px !important;
   text-transform: uppercase !important;
 }
-
-.product_cta h5 {
+*/
+.booking_now h5 {
   font-weight: 300 !important;
   font-size: 12px !important;
   font-style: italic !important;
 }
-
 
 .nectar-button {
   border-radius: px !important;
@@ -102,14 +105,6 @@
 .collection_card {
   font-style: italic !important;
   text-transform: capitalize !important;
-}
-
-.card_prestation:hover {
-  background: #fcfcfc !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-  transition: all 0.50s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
-  padding: 2% !important;
-  border-radius: 2px !important;
 }
 
 .test {
