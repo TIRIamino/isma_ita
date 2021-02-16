@@ -24,19 +24,13 @@
 /*#button part1*/
 .button_nav1 {
   text-transform: uppercase !important;
-  background: transparent;
+  background: #f8fbfc;
   padding: 2%;
   font-size: 12px !important;
   font-style: italic !important;
   color: #424256 !important;
   border: 1px solid rgba(245, 243, 240, 0.95) !important;
   border-radius: 4px;
-}
-
-.button_nav1:hover {
-  background: #1e2d3b !important;
-  color: white !important;
-  font-weight: 400;
 }
 
 .button_nav1 a {
