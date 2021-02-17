@@ -6,15 +6,12 @@
 .logo {
   font-family: Cormorant !important;
   font-weight: 300;
-  text-align: center !important;
-  font-size: 24px;
 }
 
 /*COLLECTION*/
 
 #text_collection {
   letter-spacing: 1.2px;
-  font-weight: 300;
 }
 
 #item_collection {
@@ -64,7 +61,6 @@
   background: #1e2d3b !important;
   color: white !important;
 }
-
 
 /*---------About*/
 
@@ -206,7 +202,6 @@
 #product_h1_mobile {
   padding-left: 50px !important;
 }
-
 
 @media only screen and (max-width: 800px) {
   #item_collection {

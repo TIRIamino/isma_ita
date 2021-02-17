@@ -1,0 +1,535 @@
+/*---------------------------HEADER-----------------------------------*/
+/*---------logo*/
+/*LOGO*/
+.logo {
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+}
+
+/*COLLECTION*/
+#text_collection {
+    letter-spacing: 1.2px;
+}
+
+#item_collection {
+  font-family: Cormorant !important;
+  font-weight: 300 !important;
+}
+
+body h1 {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: #1E2D3B !important;
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+
+    font-style: justify !important;
+
+
+    /*font-variant: small-caps !important;*/
+}
+
+.price {
+ font-size: 12px !important;
+ color: #1E2D3B !important;
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+ font-weight: 500 !important;
+
+}
+
+/*CTA*/
+
+
+/*#cta_booking {
+ border-radius: 4px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}*/
+
+/*#cta_booking {
+    position: relative !important;
+    top: -30px !important;
+}*/
+
+#cta_booking span {
+    font-weight: 500 !important;
+}
+
+#cta_booking:hover {
+    background: transparent !important;
+    color:#1E2D3B !important;
+    font-weight: 700 !important;
+    border: 1px solid #1E2D3B !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+    transform: scale(1.02);
+
+}
+
+
+.promotion p {
+    padding: 24px !important;
+   /* color: #E4D1D2 !important;*/
+    width: 60% !important;
+    font-size: 8px !important;
+
+}
+
+.promotion_mobile p {
+    padding: 24px !important;
+    color: white !important;
+    text-align: center !important;
+    font-size: 8px !important;
+}
+
+
+
+
+.nectar-button span {
+ border-radius: 8px !important;
+ font-size: 12px !important;
+ font-family: Fira Sans !important;
+ font-weight: 700 !important;
+ font-style: italic !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+.nectar-button {
+
+ border-radius: 8px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}
+
+.discover span {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    color: #010b13 !important;
+}
+
+/*MANIFESTO*/
+#manifesto {
+ font-family: Montserrat !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+.product_h2 {
+ text-transform: uppercase !important;
+}
+
+.citation {
+ text-transform: uppercase !important;
+
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+ font-size: 12px !important;
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+}
+
+
+/*About*/
+.text_descriptif {
+ font-family: Fira Sans !important;
+ font-size: 12px !important;
+ font-weight: 300 !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+ width: 88% !important;
+}
+
+.bio {
+
+    text-align: left !important;
+}
+
+.bio span {
+ font-family: Cormorant !important;
+ font-style: italic !important;
+ font-size: 14px !important;
+ text-transform: uppercase !important;
+
+}
+
+
+
+.item_descriptif h3 {
+ font-family: Fira Sans !important;
+ font-size: 12px !important;
+ font-weight: 300 !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+.item_descriptif strong {
+ font-family: Fira Sans !important;
+ font-size: 12px !important;
+ font-weight: 500 !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+.item_descriptif em {
+ font-family: Fira Sans !important;
+ font-size: 12px !important;
+ font-weight: 300 !important;
+ font-style: italic !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+
+.link_fashion a {
+    font-family: Fira Sans !important;
+    color: #889AA8 !important;
+    font-style: italic !important;
+    font-size: 12px !important;
+
+}
+
+
+.link_savoirplus a {
+   font-family: Fira Sans !important;
+    color: #1E2D3B !important;
+    font-style: italic !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+
+.item_price p {
+  font-family: Fira Sans !important;
+ font-size: 12px !important;
+ font-weight: 300 !important;
+ color: #1E2D3B !important;
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+}
+
+
+
+
+/*---------------------responsive -----------------------*/
+.logo_responsive {
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+ color: white !important;
+ font-size: 18px !important;
+ text-transform: uppercase !important;
+ text-align: center !important;
+}
+
+.separator_responsive {
+ font-size: 8px !important;
+ color: white !important;
+ text-align: center !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+
+.collection_mobile {
+ font-size: 8px !important;
+ color: white !important;
+ text-align: center !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+ font-weight: 500 !important;
+}
+
+.item_collection_responsive {
+ font-family: Cormorant !important;
+ font-size: 32px !important;
+ font-weight: 300 !important;
+ color: white !important;
+}
+
+/*.responsive_h1 h1 {
+    font-family: Fira Sans !important;
+ font-size: 6px !important;
+ font-weight: 300 !important;
+ color: white !important;
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}*/
+
+@media only screen and (max-width: 690px) {
+    #item_collection {
+        color: white !important;
+        font-size: 32px !important;
+    }
+
+    .wpb_wrapper h1.vc_custom_heading {
+        font-family: Fira Sans !important;
+        font-size: 10px !important;
+        font-weight: 300 !important;
+        color: white !important;
+        text-transform: uppercase !important;
+        line-height: 1.6 !important;
+        letter-spacing: 1px !important;
+        margin: auto;
+
+    }
+
+    .bio {
+
+        text-align: left !important;
+    }
+}
+
+
+@media only screen and (max-width: 690px) {
+.wpb_wrapper h2.vc_custom_heading  {
+        font-family: Cormorant !important;
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        color: #1E2D3B !important;
+        text-transform: uppercase !important;
+        line-height: 1.6 !important;
+        letter-spacing: 1px !important;
+    }
+
+    .
+}
+
+
+
+.onglet {
+    font-size: 32px !important;
+    color: #1E2D3B !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(360deg) !important;
+
+     font-weight: 100 !important;
+}
+
+.tata {
+    width: 80% !important;
+
+
+}
+
+#cta_toto {
+ border-radius: 8px !important;
+ border: 0.5px solid white !important;
+ background: transparent !important;
+
+}
+
+#cta_toto span {
+    font-family: Cormorant !important;
+ font-size: 16px !important;
+ font-style: italic !important;
+ color: white !important;
+ font-weight: 300 !important;
+}
+
+
+#cta_tata {
+ border-radius: 8px !important;
+ border: 0.5px solid #1E2D3B !important;
+ background: transparent !important;
+}
+
+#cta_tata span {
+    font-family: Cormorant !important;
+ font-size: 12px !important;
+ font-style: italic !important;
+ color: #1E2D3B !important;
+ font-weight: 300 !important;
+}
+
+
+
+.titi {
+ color: #E1E7E7 !important;
+ font-family: Montserrat !important;
+ font-weight: 400 !important;
+ /*background: purple !important;*/
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: top right !important;
+}
+
+.collection_portrait h2{
+ font-family: Fira Sans !important;
+ font-weight: 300 !important;
+ font-size: 10px !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+ color: #1E2D3B !important;
+}
+
+.collection_portrait strong {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+.item_descriptif_responsive h3 {
+ font-family: Fira Sans !important;
+ font-size: 10px !important;
+ font-weight: 300 !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+.item_descriptif_responsive strong {
+ font-family: Fira Sans !important;
+ font-size: 10px !important;
+ font-weight: 500 !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+.item_descriptif_responsive em {
+ font-family: Fira Sans !important;
+ font-size: 10px !important;
+ font-weight: 300 !important;
+ font-style: italic !important;
+ color: #1E2D3B !important;
+ /*font-variant: small-caps !important;*/
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+
+}
+
+#product_h1_mobile {
+    padding-left: 50px !important;
+}
+
+
+/*FOOTER & instagram*/
+.adress_insta {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.5px !important;
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ font-family: Montserrat !important;
+ color: #424256 !important;
+}
+
+#widget_flo_instagram-3 h4 {
+    font-size: 40px !important;
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(180deg) !important;
+     font-family: Montserrat !important;
+     font-weight: 400 !important;
+     position: relative !important;
+     top: 204px !important;
+     right: 64px !important;
+     background: white !important;
+    padding: 8px !important;
+     line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+    /*border-left: 1px solid #424256 !important;*/
+
+
+}
+
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 2px !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+
+}
+
+.top-header {
+    background-image: linear-gradient(to right bottom, #a0d1d4, #b1d9dd, #c1e0e5, #d2e8ec, #e2f0f3, #e8f3f5, #edf6f7, #f3f9f9, #f0f7f6, #eef5f2, #ecf3ee, #ebf1ea) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+
+.picture-top{
+     border-radius: 8px !important;
+}
