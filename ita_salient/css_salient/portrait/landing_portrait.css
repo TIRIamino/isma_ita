@@ -6,12 +6,15 @@
 .logo {
   font-family: Cormorant !important;
   font-weight: 300;
+  text-align: center !important;
+  font-size: 24px;
 }
 
 /*COLLECTION*/
 
 #text_collection {
   letter-spacing: 1.2px;
+  font-weight: 300;
 }
 
 #item_collection {
@@ -62,6 +65,7 @@
   color: white !important;
 }
 
+
 /*---------About*/
 
 .text_biography {
@@ -70,9 +74,9 @@
 
 /*Lien vers la page about*/
 .cta_bio span {
-  font-family: Cormorant !important;
+  font-family: Fira Sans !important;
   font-style: italic !important;
-  font-size: 14px !important;
+  font-size: 12px !important;
   text-transform: uppercase !important;
 }
 
@@ -167,6 +171,39 @@
   font-weight: 300 !important;
 }
 
+/*instagram*/
+.adress_insta {
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
+}
+
+#widget_flo_instagram-3 h4 {
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
+}
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
+}
+
+
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
   font-family: Fira Sans !important;
@@ -202,6 +239,7 @@
 #product_h1_mobile {
   padding-left: 50px !important;
 }
+
 
 @media only screen and (max-width: 800px) {
   #item_collection {

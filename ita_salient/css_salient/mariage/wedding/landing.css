@@ -16,54 +16,21 @@
   font-weight: 300 !important;
 }
 
-body h1 {
+.product_h2 h2 {
+  font-size: 10px !important;
+  letter-spacing: 1.1px !important;
   font-family: Fira Sans !important;
-  font-size: 12px !important;
-  font-weight: 300 !important;
-  color: #1e2d3b !important;
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-
+  font-weight: 300;
+  line-height: 1.6;
   font-style: justify !important;
-
-  /*font-variant: small-caps !important;*/
 }
 
 .price {
   letter-spacing: 2px !important;
 }
 
-/*CTA*/
-
-/*#cta_booking {
- border-radius: 4px !important;
- transform: scale(1);
- transition-duration: 2s !important;
- transition-property: transform !important;
-}*/
-
-/*#cta_booking {
-    position: relative !important;
-    top: -30px !important;
-}*/
-
-#cta_booking span {
-  font-weight: 500 !important;
-}
-
-#cta_booking:hover {
-  background: transparent !important;
-  color: #1e2d3b !important;
-  font-weight: 700 !important;
-  border: 1px solid #1e2d3b !important;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
-  transform: scale(1.02);
-}
-
 .promotion p {
   padding: 24px !important;
-  /* color: #E4D1D2 !important;*/
   width: 60% !important;
   font-size: 8px !important;
 }
@@ -75,98 +42,73 @@ body h1 {
   font-size: 8px !important;
 }
 
+/*CTA*/
+/*Button propriété générale*/
 .nectar-button span {
-  border-radius: 8px !important;
   font-size: 12px !important;
-  font-family: Fira Sans !important;
-  font-weight: 700 !important;
   font-style: italic !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
+  letter-spacing: 1.6px !important;
 }
 
-.nectar-button {
-  border-radius: 8px !important;
-  transform: scale(1);
-  transition-duration: 2s !important;
-  transition-property: transform !important;
-}
-
-.discover span {
-  font-family: Fira Sans !important;
+.nectar-button:hover span {
   font-weight: 400 !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px;
-  text-transform: uppercase !important;
-  font-size: 12px !important;
-  color: #010b13 !important;
+}
+/*Réservez une séance*/
+#cta_booking:hover {
+  background: #1e2d3b !important;
+  color: #f7fbfc !important;
 }
 
-/*MANIFESTO*/
-#manifesto {
-  font-family: Montserrat !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
+/*---------About*/
 
-.product_h2 {
-  text-transform: uppercase !important;
-}
-
-.citation {
-  text-transform: uppercase !important;
-
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-size: 12px !important;
-  font-family: Cormorant !important;
-  font-weight: 300 !important;
-}
-
-/*About*/
-.text_descriptif {
-  font-family: Fira Sans !important;
-  font-size: 12px !important;
-  font-weight: 300 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
+.text_biography {
   width: 88% !important;
 }
 
-.bio {
-  text-align: left !important;
+/*Lien vers la page about*/
+.cta_bio span {
+  font-family: Fira Sans !important;
+  font-style: italic !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
 }
 
-.bio span {
-  font-family: Cormorant !important;
-  font-style: italic !important;
-  font-size: 14px !important;
-  text-transform: uppercase !important;
+.border_line_picture {
+  border-bottom: 2px solid #1e2d3b;
+}
+
+#title_social_media {
+  letter-spacing: 1.2px;
+}
+/* --------------------collection Portrait */
+.collection_portrait h2 {
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  font-size: 10px !important;
+}
+
+.collection_portrait strong {
+  font-family: Fira Sans !important;
+  font-weight: 500 !important;
+  line-height: 1.6 !important;
+}
+/* --------------------Page prestation */
+.onglet_part {
+  letter-spacing: 1.4px;
+  transform: rotate(90deg) !important;
+  transform-origin: top right !important;
 }
 
 .item_descriptif h3 {
   font-family: Fira Sans !important;
   font-size: 12px !important;
   font-weight: 300 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
   text-transform: uppercase !important;
   line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }
 
 .item_descriptif strong {
-  font-family: Fira Sans !important;
-  font-size: 12px !important;
   font-weight: 500 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }
 
 .item_descriptif em {
@@ -174,105 +116,33 @@ body h1 {
   font-size: 12px !important;
   font-weight: 300 !important;
   font-style: italic !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
 }
 
 .link_fashion a {
-  font-family: Fira Sans !important;
   color: #889aa8 !important;
   font-style: italic !important;
-  font-size: 12px !important;
 }
 
 .link_savoirplus a {
-  font-family: Fira Sans !important;
-  color: #1e2d3b !important;
   font-style: italic !important;
   font-size: 12px !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 .item_price p {
-  font-family: Fira Sans !important;
+  font-family: Fira Mono !important;
   font-size: 12px !important;
-  font-weight: 300 !important;
-  color: #1e2d3b !important;
-  text-transform: uppercase !important;
   line-height: 1.6 !important;
   letter-spacing: 2px !important;
 }
 
-/*---------------------responsive -----------------------*/
-.logo_responsive {
-  font-family: Cormorant !important;
-  font-weight: 300 !important;
-  color: white !important;
-  font-size: 18px !important;
-  text-transform: uppercase !important;
-  text-align: center !important;
-}
-
-.separator_responsive {
-  font-size: 8px !important;
-  color: white !important;
-  text-align: center !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
-
-.collection_mobile {
-  font-size: 8px !important;
-  color: white !important;
-  text-align: center !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-weight: 500 !important;
-}
-
-.item_collection_responsive {
-  font-family: Cormorant !important;
-  font-size: 32px !important;
-  font-weight: 300 !important;
-  color: white !important;
-}
-
-/*.responsive_h1 h1 {
-    font-family: Fira Sans !important;
- font-size: 6px !important;
- font-weight: 300 !important;
- color: white !important;
- text-transform: uppercase !important;
- line-height: 1.6 !important;
- letter-spacing: 1px !important;
-
-}*/
-
-.onglet {
-  font-size: 32px !important;
-  color: #1e2d3b !important;
-  text-transform: uppercase !important;
-  writing-mode: vertical-lr !important;
-  text-orientation: mixed !important;
-  transform: rotate(360deg) !important;
-
-  font-weight: 100 !important;
-}
-
-.tata {
-  width: 80% !important;
-}
-
-#cta_toto {
+#cta_booking_top {
   border-radius: 8px !important;
   border: 0.5px solid white !important;
   background: transparent !important;
 }
 
-#cta_toto span {
+#cta_booking_top span {
   font-family: Cormorant !important;
   font-size: 16px !important;
   font-style: italic !important;
@@ -280,104 +150,37 @@ body h1 {
   font-weight: 300 !important;
 }
 
-#cta_tata {
+#cta_booking_presta {
   border-radius: 8px !important;
   border: 0.5px solid #1e2d3b !important;
-  background: transparent !important;
+  background: #1e2d3b !important;
 }
 
-#cta_tata span {
-  font-family: Cormorant !important;
+#cta_booking_presta span {
+  font-family: Fira Sans !important;
   font-size: 12px !important;
   font-style: italic !important;
-  color: #1e2d3b !important;
+  color: white !important;
   font-weight: 300 !important;
 }
 
-.titi {
-  color: #e1e7e7 !important;
-  font-family: Montserrat !important;
-  font-weight: 400 !important;
-  /*background: purple !important;*/
-  text-transform: uppercase !important;
-  transform: rotate(90deg) !important;
-  transform-origin: top right !important;
-}
-
-.collection_portrait h2 {
-  font-family: Fira Sans !important;
-  font-weight: 300 !important;
-  font-size: 10px !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  color: #1e2d3b !important;
-}
-
-.collection_portrait strong {
-  font-family: Fira Sans !important;
-  font-weight: 500 !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
-
-.item_descriptif_responsive h3 {
-  font-family: Fira Sans !important;
-  font-size: 10px !important;
-  font-weight: 300 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
-
-.item_descriptif_responsive strong {
-  font-family: Fira Sans !important;
-  font-size: 10px !important;
-  font-weight: 500 !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
-
-.item_descriptif_responsive em {
-  font-family: Fira Sans !important;
-  font-size: 10px !important;
-  font-weight: 300 !important;
-  font-style: italic !important;
-  color: #1e2d3b !important;
-  /*font-variant: small-caps !important;*/
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-}
-
-#product_h1_mobile {
-  padding-left: 50px !important;
-}
-
-/*FOOTER & instagram*/
+/*instagram*/
 .adress_insta {
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1.5px !important;
-  font-size: 10px !important;
-  font-weight: 400 !important;
-  font-family: Montserrat !important;
-  color: #424256 !important;
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
 }
 
 #widget_flo_instagram-3 h4 {
-  font-size: 40px !important;
   color: #424256 !important;
   text-transform: uppercase !important;
   writing-mode: vertical-lr !important;
   text-orientation: mixed !important;
   transform: rotate(180deg) !important;
-  font-family: Montserrat !important;
-  font-weight: 400 !important;
+  font-family: Fira Sans !important;
   position: relative !important;
   top: 204px !important;
   right: 64px !important;
@@ -386,54 +189,33 @@ body h1 {
   line-height: 1.6 !important;
   letter-spacing: 1.5px !important;
   border-right: 1px solid #424256 !important;
-  /*border-left: 1px solid #424256 !important;*/
 }
 
-body #sidebar h4,
-body .widget h4,
-body #footer-outer .widget h4 {
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   font-size: 9px !important;
   font-weight: 400 !important;
 }
 
+
+
 /*-------------------FOOTER_NAV---------------------*/
 .footer_menu {
-  font-family: "Fira Sans" !important;
+  font-family: Fira Sans !important;
   font-size: 12px !important;
-  display: inline-block !important;
-  padding: 20px !important;
-  text-align: center !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1.5px !important;
-  font-weight: 400 !important;
-  color: #424256 !important;
-}
-
-.subtitle {
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-size: 14px !important;
-  font-weight: 300 !important;
-  font-family: Fira Sans !important;
-  text-align: center !important;
-}
-
-.separrator h4 {
-  text-transform: uppercase !important;
-  line-height: 1.6 !important;
-  letter-spacing: 1px !important;
-  font-size: 10px !important;
-  font-weight: 300 !important;
-  font-family: Fira Sans !important;
-  text-align: center !important;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #424256;
 }
 
 .footer_mobile {
-  line-height: 1.6 !important;
-  letter-spacing: 2px !important;
+  line-height: 1.6;
+  letter-spacing: 1px;
   font-size: 10px !important;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 .top-header {
@@ -460,7 +242,7 @@ body #footer-outer .widget h4 {
   border-radius: 8px !important;
 }
 
-@media only screen and (max-width: 690px) {
+/*@media only screen and (max-width: 690px) {
   #item_collection {
     color: white !important;
     font-size: 32px !important;
@@ -488,5 +270,107 @@ body #footer-outer .widget h4 {
     text-transform: uppercase !important;
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
+  }
+}
+/*---------------------responsive -----------------------*/
+.logo_responsive {
+  font-family: Cormorant !important;
+  font-weight: 300 !important;
+  color: white !important;
+}
+
+.subtitle_logo_responsive {
+  font-size: 8px !important;
+  color: white !important;
+}
+
+#product_h1_mobile {
+  padding-left: 50px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  #item_collection {
+    color: white !important;
+    font-size: 32px !important;
+  }
+  .product_h2 h2 {
+    font-family: Fira Sans !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    color: white !important;
+    line-height: 1.6 !important;
+    margin: auto;
+  }
+  .product_h2 strong a {
+    color: white;
+  }
+
+  .onglet_part {
+    font-family: Fira Mono !important;
+    font-size: 14px !important;
+  }
+
+  #onglet_biographie {
+    font-size: 12px !important;
+  }
+  #title_bio {
+    font-size: 14px !important;
+  }
+  #onglet_solo {
+    font-size: 12px !important;
+  }
+  #title_portrait_solo {
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+  #onglet_couple {
+    font-size: 12px !important;
+  }
+  #title_portrait_couple {
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+  #onglet_famille {
+    font-size: 12px !important;
+  }
+  #title_portrait_famille {
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+  #separrator {
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center;
+  }
+}
+
+.item_descriptif_responsive h3 {
+  font-family: Fira Sans !important;
+  font-size: 10px !important;
+  font-weight: 300 !important;
+  color: #1e2d3b !important;
+  line-height: 1.6 !important;
+}
+
+.item_descriptif_responsive strong {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+}
+
+.item_descriptif_responsive em {
+  font-family: Fira Sans !important;
+  font-size: 10px !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+}
+
+
+@media only screen and (max-width: 690px) {
+  .product_h2 h2 {
+    font-size: 10px !important;
   }
 }
