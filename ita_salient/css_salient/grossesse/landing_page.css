@@ -29,18 +29,6 @@
   letter-spacing: 2px !important;
 }
 
-.promotion p {
-  padding: 24px !important;
-  width: 60% !important;
-  font-size: 8px !important;
-}
-
-.promotion_mobile p {
-  padding: 24px !important;
-  color: white !important;
-  text-align: center !important;
-  font-size: 8px !important;
-}
 
 /*CTA*/
 /*Button propriété générale*/
@@ -74,7 +62,7 @@
 }
 
 .border_line_picture {
-  border-bottom: 2px solid #1e2d3b;
+  border-bottom: 2px solid white;
 }
 
 #title_social_media {
@@ -218,29 +206,7 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
   font-weight: 400;
 }
 
-.top-header {
-  background-image: linear-gradient(
-    to right bottom,
-    #a0d1d4,
-    #b1d9dd,
-    #c1e0e5,
-    #d2e8ec,
-    #e2f0f3,
-    #e8f3f5,
-    #edf6f7,
-    #f3f9f9,
-    #f0f7f6,
-    #eef5f2,
-    #ecf3ee,
-    #ebf1ea
-  ) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
-}
 
-.picture-top {
-  border-radius: 8px !important;
-}
 
 /*---------------------responsive -----------------------*/
 .logo_responsive {
