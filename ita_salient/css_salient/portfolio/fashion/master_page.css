@@ -1,0 +1,197 @@
+.picture {
+    width: 375px;
+    height: auto;
+    background-image: cover;
+}
+
+
+.hover-line :hover{
+    margin-top: 12px;
+    height: 1px;
+    margin-bottom: 12px;
+    color: red;
+}
+
+.hover_item:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+}
+
+.submenu_item:hover {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #18242f !important;
+    text-decoration: overline !important;
+    transition-delay: 0.5s !important;
+    transition-property: text-decoration !important;
+}
+
+#submenu_actif:hover {
+    font-size: 10px !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba(30,45,59,0.25) !important;
+}
+
+#submenu-actif {
+    font-size: 10px !important;
+    color: #1e2d3b !important;
+}
+
+.project_mobile {
+    font-size: 12px !important;
+}
+
+.gallery h3{
+    font-style: italic !important;
+    font-size: 16px !important;
+
+}
+.gallery_mobile {
+    font-size: 10px !important;
+}
+
+@media only screen and (max-width: 690px) {
+    .wpb_wrapper h2.vc_custom_heading.project {
+        font-size: 14px !important;
+
+    }
+}
+
+
+/*FOOTER & instagram*/
+/*instagram*/
+.adress_insta {
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
+}
+
+#widget_flo_instagram-3 h4 {
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
+}
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 2px !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+
+}
+
+
+
+
+/*-----------------------SUBMENU NAV*/
+
+
+.submenu_item:hover {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #18242f !important;
+    /*text-decoration: overline !important;
+    transition-delay: 0.5s !important;
+    transition-property: text-decoration !important;*/
+}
+
+.submenu_item {
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    letter-spacing: 2px !important;
+    position: relative !important;
+    top: -24px !important;
+
+
+}
+
+.submenu_item_mobile {
+    display: inline-block !important;
+  /*  padding: 10px !important;*/
+    text-align: center !important;
+    letter-spacing: 2px !important;
+
+
+}
+
+#submenu_actif:hover {
+    font-size: 10px !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba(30,45,59,0.25) !important;
+}
+
+#submenu-actif {
+    font-size: 10px !important;
+    color: #1e2d3b !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+
+#title_portfolio_mobile {
+    letter-spacing: 2px !important;
+}
+
+@media only screen and (max-width: 690px) {
+    #submenu_h1_mobile {
+        font-size: 12px !important;
+       margin: 0px !important;
+    }
+}
