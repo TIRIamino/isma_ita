@@ -1,0 +1,761 @@
+/*-------------------------LOGO------------------*/
+.logo {
+ font-family: Cormorant !important;
+ font-weight: 300;
+}
+
+.separator {
+ position: relative;
+ top: -24px;
+}
+
+/*-----------------------HEADER H1------------------*/
+.picture_top {
+ border-radius: 8px !important;
+}
+
+#corporate {
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ letter-spacing: 2px !important;
+
+}
+
+.nectar-highlighted-text h1 {
+    font-size: 48px !important;
+  font-weight: 300 !important;
+  width: 125% !important;
+  font-family: Cormorant !important;
+
+}
+
+.subtitle_header {
+ font-family: Fira Sans !important;
+ text-transform: uppercase !important;
+ letter-spacing: 1px  !important;
+ line-height: 1.6 !important;
+ font-weight: 300 !important;
+ font-size: 12px !important;
+}
+
+.subtitle_header strong {
+ font-family: Fira Sans  !important;
+ font-weight: 500 !important;
+}
+
+/*CTA*/
+
+#cta_booking span {
+
+ font-size: 12px !important;
+ font-family: Fira Sans !important;
+ font-weight: 500 !important;
+ font-style: italic !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+#cta_booking:hover {
+ border-radius: 8px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}
+
+#cta_information span {
+ font-size: 12px !important;
+ font-family: Fira Sans !important;
+ font-weight: 500 !important;
+ font-style: italic !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+#cta_information:hover {
+ border-radius: 8px !important;
+ transform: scale(1);
+ transition-duration: 2s !important;
+ transition-property: transform !important;
+}
+
+.promotion p {
+    padding: 24px !important;
+    font-size: 10px !important;
+}
+
+.promotion_mobile p {
+    padding: 24px !important;
+    color: white !important;
+    text-align: center !important;
+    font-size: 8px !important;
+}
+
+.promotion strong {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+}
+/*----------------------------MANIFESTO---------------------*/
+#manifesto {
+ font-family: Montserrat !important;
+ line-height: 1.6 !important;
+ letter-spacing: 2px !important;
+ font-size: 10px !important;
+ font-weight: 500 !important;
+}
+
+.product_h2 h2 {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ font-size: 24px;
+}
+
+.product_h2 strong {
+    color: #1E2D3B !important;
+    background-color: rgba(0,179,136,.1) !important;
+    font-weight: 700 !important;
+    padding: 4px !important;
+}
+
+.product_francy h2 {
+ text-transform: uppercase !important;
+ line-height: 2 !important;
+ font-size: 24px;
+}
+
+.product_francy strong {
+    color: #42b29c !important;
+    font-family: Fira Sans;
+    font-weight: 500 !important;
+    padding: 4px !important;
+}
+
+.citation {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+ font-size: 12px !important;
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+}
+
+/*---------------------RESPONSIVE-------------------*/
+
+.logo_responsive {
+ font-family: Cormorant !important;
+ font-weight: 300 !important;
+ color: white !important;
+ font-size: 18px !important;
+ text-transform: uppercase !important;
+ text-align: center !important;
+}
+
+.separator_responsive {
+ font-size: 8px !important;
+ color: white !important;
+ text-align: center !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1px !important;
+}
+
+.item_collection_responsive {
+ font-family: Cormorant !important;
+ font-size: 32px !important;
+ font-weight: 300 !important;
+ color: white !important;
+}
+
+@media only screen and (max-width: 690px) {
+    .wpb_wrapper h1.vc_custom_heading {
+        font-family: Fira Sans !important;
+        font-size: 10px !important;
+        font-weight: 300 !important;
+        color: white !important;
+        text-transform: uppercase !important;
+        line-height: 1.6 !important;
+        letter-spacing: 1px !important;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 690px) {
+.wpb_wrapper h2.vc_custom_heading  {
+        font-family: Cormorant !important;
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        color: #1E2D3B !important;
+        text-transform: uppercase !important;
+        line-height: 1.6 !important;
+        letter-spacing: 1px !important;
+    }
+}
+
+.onglet {
+    font-size: 32px !important;
+    color: #1E2D3B !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(360deg) !important;
+     font-weight: 100 !important;
+}
+
+
+
+.prestation {
+    border-radius: 8px !important;
+}
+
+.nectar-fancy-box.heading-wrap {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+    text-align: center;
+}
+
+.heading-wrap h3 {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+    text-align: center;
+}
+
+
+.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {
+    background: rgba(0,179,136,.1);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 16px;
+}
+
+
+.icon-default-style.steadysets-icon-checkmark {
+    color: #02b389 !important;
+   font-size: 16px !important;
+}
+
+.nectar-fancy-ul ul li {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.discover span {
+ font-family: Fira Sans !important;
+ font-weight: 400;
+ line-height: 1.6;
+ letter-spacing: 1px;
+ font-size: 12px;
+ color: #010B13;
+}
+
+
+.nectar-fancy-box  {
+    background: #F7F7F7 !important;
+}
+
+.prospect_h3:hover {
+ color: white;
+}
+
+.prospect_p {
+ width: 70%;
+ letter-spacing: 1.2px !important;
+}
+
+.prospect_p:hover {
+ color: white;
+}
+
+.prospect:hover h3 {
+    color: white !important;
+}
+
+.prospect:hover h4 {
+    color: white !important;
+}
+
+/*---------------------PROCESS----------------*/
+.nectar-icon-list.completed h4 {
+  font-size: 12px !important;
+  font-family: Fira Sans;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-transform: uppercase !important;
+
+}
+
+.nectar-icon-list-item .content {
+    font-size: 10px;
+    font-family: Fira Sans;
+    font-weight: 300;
+    color: #636e72;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.tabbed.wpb_tabs_nav {
+ padding-top: 0px !important;
+ padding-bottom: 1px !important;
+ position: fixed !important;
+ top: 0px !important;
+ width: 273.781px !important;
+}
+
+.portfolio_header a {
+    color: #1F2E3B !important;
+    text-transform: uppercase !important;
+    font-weight: 400;
+    background: #F7F7F7;
+    font-size: 12px;
+}
+
+.wpb_tabs_nav ui-tabs-nav {
+ background: #F7F7F7 !important;
+ position: fixed;
+
+}
+.portfolio_header {
+ padding-left: 6% !important;
+ padding-right: 6% !important;
+}
+
+.border_line {
+ border-bottom: .5px solid #1E2D3B;
+}
+
+/*------------------DERNIERS PHOTOS CORPORATE*/
+.magic-line {
+ height: .5px !important;
+}
+
+.pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-3:before, .pricing-table[data-style="flat-alternative"] .pricing-column.highlight.extra-color-3 h3 .highlight-reason, .tabbed[data-color-scheme="extra-color-3"][data-style="default"] li:not(.cta-button) .active-tab, .tabbed[data-style="vertical_modern"][data-color-scheme="extra-color-3"] .wpb_tabs_nav li .active-tab, body .tabbed[data-color-scheme="extra-color-3"][data-style="minimal"] > ul li:not(.cta-button) a:after, .tabbed[data-color-scheme="extra-color-3"][data-style="minimal_alt"] .magic-line, .tabbed[data-style*="material"][data-color-scheme="extra-color-3"] ul:after, .tabbed[data-style*="material"][data-color-scheme="extra-color-3"] ul li .active-tab, .nectar-scrolling-tabs[data-color-scheme="extra-color-3"] .scrolling-tab-nav .line, .wpb_row .nectar-post-grid-filters[data-active-color="extra-color-3"] a:after, #ajax-content-wrap [data-stored-style="vs"] .tabbed[data-color-scheme="extra-color-3"] .wpb_tabs_nav li a:before, .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-3"] .flickity-page-dots .dot.is-selected:before, .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-3"] blockquote.is-selected p, .nectar-button.nectar_video_lightbox[data-color="default-extra-color-3"], .nectar_video_lightbox.nectar-button[data-color="transparent-extra-color-3"]:hover, body [class^="icon-"].icon-3x.alt-style.extra-color-3, body [class*=" icon-"].icon-3x.alt-style.extra-color-3, .col:hover > [class^="icon-"].icon-3x.extra-color-3:not(.alt-style), .col:hover > [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-3"] .nectar_icon:after, .nectar-cta[data-color="extra-color-3"]:not([data-style="material"]) .link_wrap, body .col:not(.post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, body .col:not(.post-area):not(#sidebar):not(.span_12):hover a [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, .nectar-flickity[data-controls*="arrows_overlaid"][data-control-color="extra-color-3"] .flickity-prev-next-button:hover:before, .nectar-flickity[data-controls="default"][data-control-color="extra-color-3"] .flickity-page-dots .dot:before, .nectar-flickity[data-controls="touch_total"][data-control-color="extra-color-3"] .visualized-total span, .nectar-post-grid-wrap[data-load-more-color="extra-color-3"] .load-more:hover, [class*=" icon-"].extra-color-3.icon-normal, div[data-style="minimal"] .toggle.extra-color-3.open i:after, div[data-style="minimal"] .toggle.extra-color-3:hover i:after, div[data-style="minimal"] .toggle.open.extra-color-3 i:before, div[data-style="minimal"] .toggle.extra-color-3:hover i:before, div[data-style="minimal_small"] .toggle.extra-color-3 > h3:after, .toggle.open.extra-color-3 h3 a, .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-3"] .nectar-list-item-btn:hover {
+ height: 2px !important;
+}
+
+.row.col.team-member h4 {
+  font-size: 16px;
+}
+
+.position {
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #777777;
+}
+
+
+
+.team-member p.description, .row .col .team-member p.description  {
+    font-size: 10px !important;
+  font-family: Fira Sans !important;
+  letter-spacing: 1.6px !important;
+  line-height: 1.6 !important;
+  color: #1e2e3b;
+  font-style: justify !important;
+}
+
+
+.discover_black span  {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    color: #010b13 !important;
+
+
+}
+
+.contact {
+  border-left: .5px solid #777777;
+}
+
+
+.contact_informations h3 {
+  font-family: Fira Sans !important;
+  font-weight: 400 !important;
+  letter-spacing: 1.6px !important;
+  font-size: 11px !important;
+
+}
+.contact_informations p {
+    font-size: 11px !important;
+}
+
+.contact_informations strong {
+  font-family: Fira Sans !important;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #777777;
+}
+
+/*instagram*/
+.adress_insta {
+ line-height: 1.6;
+ letter-spacing: 2px;
+ font-size: 8px !important;
+ font-weight: 400 !important;
+ font-family: Fira Sans !important;
+ color: #424256;
+}
+
+#widget_flo_instagram-3 h4 {
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
+}
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+
+/*----------------form--------------------*/
+.wpcf7-submit {
+font-family: FontAwesome !important;
+background: transparent !important;
+color: #1e2d3b !important;
+font-size:80px !important;
+position: relative !important;
+left: 80% !important;
+top: 18px !important;
+
+
+}
+
+#first_name {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#first_name:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+#email {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#phone {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#message {
+    border: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    height: 50% !important;
+    resize: none !important;
+    overflow: hidden !important;
+    max-height: 200px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    text-transform: uppercase !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
+}
+
+#message:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+
+.wpcf7 label {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7-list-item {
+    padding: 8px !important;
+    margin-bottom: 4px !important;
+    display: grid !important;
+    grid-template: auto 1fr / auto 1fr auto !important;
+    border: 1px  rgba(255, 255, 255, 0.5) solid  !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+
+}
+
+.wpcf7-list-item span {
+    font-size: 10px !important;
+    font-weight: 200 !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.wpcf7-checkbox input[type=checkbox] {
+content: "";
+}
+
+
+.onglet {
+ color: #1e2d3b !important;
+ font-family: Montserrat !important;
+ letter-spacing: .12rem !important;
+ line-height: 1 !important;
+ font-weight: 900 !important;
+ /*background: purple !important;*/
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: bottom right !important;
+
+}
+
+
+
+/*MESSAGE&REPONSE*/
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 1px solid #00a0d2; /* Blue */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.init .wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450; /* Green */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #ff7675; /* Red */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #fdcb6e; /* Orange */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900; /* Yellow */
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+    font-family: Montserrat !important;
+}
+
+
+
+@media only screen and (max-width: 690px) {
+  .product_francy h2 {
+    font-size: 16px !important;
+
+    text-align:center !important;
+  }
+}
+
+/*---------------------RESPONSIVE------------------*/
+
+#cta_toto {
+ border-radius: 8px !important;
+ border: 0.5px solid white !important;
+ background: transparent !important;
+
+}
+
+#cta_toto span {
+    font-family: Cormorant !important;
+ font-size: 16px !important;
+ font-style: italic !important;
+ color: white !important;
+ font-weight: 300 !important;
+}
+
+
+#product_francy_mobile {
+    width: 100% !important;
+}
+
+.titi {
+ color: #E1E7E7 !important;
+ font-family: Montserrat !important;
+ font-weight: 400 !important;
+ position: relative;
+ top: -12px;
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: top right !important;
+
+}
+
+.bio {
+
+    text-align: left !important;
+}
+
+.bio span {
+ font-family: Cormorant !important;
+ font-style: italic !important;
+ font-size: 14px !important;
+ text-transform: uppercase !important;
+
+}
+
+.covid_19 strong {
+    font-family: Fira Sans;
+}
+
+.covid_19 h3 {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+}
+
+
+@media only screen and (max-width: 690px) {
+    #who_photographer  {
+        font-family: Fira Sans !important;
+        font-size: 14px;
+        letter-spacing: 1.5;
+        font-weight: 500 !important;
+        padding: 2%;
+        text-align: center;
+    }
+}
+
+#who {
+    letter-spacing: 1.5px;
+
+
+}
+#header_bio {
+      /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
