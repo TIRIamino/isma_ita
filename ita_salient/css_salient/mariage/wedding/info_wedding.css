@@ -1,0 +1,354 @@
+/*------------------section HEADER-------------------------------- */
+.logo {
+    font-family: Cormorant !important;
+    font-weight: 300 !important;
+    color: #1E2D3B !important;
+}
+
+
+/*-------------------h1---------------------------------------------*/
+.information_top {
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    width: 150% !important;
+    letter-spacing: 2px !important;
+}
+
+
+@media only screen and (max-width: 690px) {
+    .wpb_wrapper h1.vc_custom_heading {
+        font-size: 6px !important;
+        width: 5
+        70% !important;
+    }
+    .cta_button {
+        text-align: center !important;
+    }
+}
+
+
+#title_prestation {
+    width: 150% !important;;
+}
+
+
+.subtitle_header {
+    width: 72% !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+
+
+}
+
+.tarif {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+}
+
+.portrait {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+}
+
+.product_cta h5 {
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    font-style: italic !important;
+}
+
+.collection h2 {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    text-align:center !important;
+    font-size: 12px !important;
+}
+
+.collection strong {
+    font-weight: 700 !important;
+    font-family: Fira Sans !important;
+}
+
+
+
+.nectar-button {
+  border-radius: px !important;
+  font-size: 10px !important;
+  font-family: Fira Sans !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  margin-top: 8px !important;
+}
+
+
+
+.item {
+   border-radius: 4px !important;
+   width: 90% !important;
+
+
+
+}
+
+.nectar-button .button_formule:hover {
+    background: red !important;
+}
+
+.nectar-icon-list h4 {
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+}
+
+
+
+
+
+.collection_card {
+    font-style: italic !important;
+    text-transform: capitalize !important;
+}
+
+
+
+.test {
+    background: rgba(243,242,239,0.9) !important;
+    margin-left: 88px !important;
+    margin-right: 88px !important;
+
+    font-style: italic !important;
+}
+
+
+.nectar-icon-list h4 {
+    color: #1F2E3B !important;
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+.nectar-icon-list-item .content{
+    font-size: 12px !important;
+    color: #404054 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+    font-variant: small-caps !important;
+}
+
+.nectar-carousel-fixed-content p {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+}
+
+.nectar_single_testimonial p {
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-family: Fira Sans !important;
+    border: none !important;
+}
+
+.inner-wrap {
+     border: none !important;
+}
+
+.toggle.default a {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+.wrap span {
+    font-size: 12px !important;
+}
+
+.toggle.default p {
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+
+}
+
+.retouche {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+
+}
+
+.retouch_title {
+    font-family: Fira Sans !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    font-weight: 400 !important;
+}
+
+.annonce_reservation {
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+.menu-content h2 {
+    font-size: 16px!important;
+    letter-spacing: 2px !important;
+    font-weight: 300!important;
+
+}
+
+.nectar-scrolling-tabs .scrolling-tab-nav .menu-item .sub-desc {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+}
+
+.vc_custom_heading.number {
+    font-family: Cormorant !important;
+    font-size: 80px !important;
+    position: relative;
+    top: 56px !important;
+    font-weight: 100 !important;
+    line-height: 60px;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.title_etape {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
+    padding-left: 48px !important;
+}
+
+.description_deroulement {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    padding-left: 48px !important;
+    padding-right: 40px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+}
+
+.nectar-highlighted-text h3 {
+    font-size: 24px!important;
+
+}
+
+#word_isma {
+    font-family: Fira Sans !important;
+    letter-spacing: 1.5px !important;
+    line-height: 1.6 !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    font-size: 10px !important;
+
+}
+
+.subtitle_process p {
+    padding-bottom: 8% !important;
+    width: 80% !important;
+}
+
+.cta_booking span {
+    font-weight: 400 !important;
+    border-radius: 2px !important;
+    font-size: 12px !important;
+}
+
+.subtitle_booking p {
+    font-family: Fira Sans !important;
+    font-size: 10px !important;
+    line-height: 1.6 !important;
+    font-weight: 300 !important;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#packages {
+    font-family: Cormorant !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+
+}
+.description_reservation strong {
+    font-family: Fira Sans;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.zone_description  {
+    border-right: 1px solid #1E2D3B;
+}
+
+.portrait_photo {
+    border: 24px solid #1E2D3B;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
