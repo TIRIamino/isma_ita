@@ -1,0 +1,178 @@
+/*-----------------------SUBMENU NAV*/
+/*submenu_item*/
+.submenu_item:hover {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #18242f !important;
+    text-decoration: overline !important;
+    transition-delay: 0.5s !important;
+    transition-property: text-decoration !important;
+}
+
+.submenu_item {
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+/*----------------------------*/
+/*submenu_item Mobile*/
+.submenu_item_mobile {
+    display: inline-block !important;
+    text-align: center !important;
+}
+/*----------------------------*/
+/*submenu_actif*/
+#submenu_actif:hover {
+    font-size: 10px !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba(30,45,59,0.25) !important;
+}
+#submenu-actif {
+    font-size: 10px !important;
+    color: #1e2d3b !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+/*----------------------------*/
+/*Photo prestation*/
+.border_line_picture {
+    border-bottom: 1px solid #1E2D3B;
+}
+
+.reserver_cta_presta_mannequin h5 {
+ font-weight: 400 !important;
+ font-size: 14px !important;
+ font-style: italic !important;
+ font-family: Fira Sans !important;
+ color: #daac50;
+ letter-spacing: 1.5px
+}
+
+.etape_description {
+ font-size: 10px !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.2px !important;
+ width: 80% !important;
+}
+
+/*---------GALLERY-------------------*/
+
+.flickity-slider .cell img {
+ border-radius: 8px;
+
+}
+
+.nectar-flickity[data-controls="touch_total"] .visualized-total span {
+  background-color: #daac50 !important;
+  height: .5px !important;
+}
+/*
+
+/*-----------------------footer instagram
+.adress_insta {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.5px !important;
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ font-family: Montserrat !important;
+ color: #424256 !important;
+}
+
+#widget_flo_instagram-3 h4 {
+    font-size: 40px !important;
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(180deg) !important;
+     font-family: Montserrat !important;
+     font-weight: 400 !important;
+     position: relative !important;
+     top: 204px !important;
+     right: 64px !important;
+     background: white !important;
+    padding: 8px !important;
+     line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+    /*border-left: 1px solid #424256 !important;*/
+/*}*/
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.subtitle {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+
+
+}
+
+.separrator h4 {
+    text-transform: uppercase !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+    font-family: Fira Sans !important;
+    text-align: center !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+
+
+
+/*----------------------*/
+/*RESPONSIVE*/
+@media only screen and (max-width: 690px) {
+  #separrator {
+    line-height: 1.6;
+    font-size: 10px !important;
+  }
+  .onglet_part {
+    font-size: 10px !important;
+  }
+}
+
+
+
+.onglet_part {
+  letter-spacing: 1.6px;
+  transform: rotate(270deg) !important;
+  transform-origin: top left !important;
+  opacity: 80%;
+  font-size: 10px !important;
+  position: relative;
+  top: -250px;
+  right: 42px;;
+  padding: 4px;
+}
