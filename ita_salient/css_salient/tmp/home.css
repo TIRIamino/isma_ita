@@ -1,3 +1,8 @@
+body a {
+ font-style: normal !important;
+}
+
+
 /*title_h1*/
 
 /*subtitle_h2*/
@@ -9,5 +14,6 @@
 /*button navigation*/
 .button_nav {
  letter-spacing: 2.5px;
- line-height: 1.6;
+ line-height: 1;
+ padding-bottom: 2px;
 }
