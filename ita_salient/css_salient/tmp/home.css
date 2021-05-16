@@ -1,5 +1,5 @@
 body a {
- font-style: normal !important;
+    font-style: normal !important;
 }
 
 
@@ -7,13 +7,113 @@ body a {
 
 /*subtitle_h2*/
 .subtitle_h2 {
- letter-spacing: 2.5px;
- line-height: 1.2
+    letter-spacing: 2.5px;
+    line-height: 1.2
 }
 
 /*button navigation*/
-.button_nav {
- letter-spacing: 2.5px;
- line-height: 1;
- padding-bottom: 2px;
+.button_nav a {
+    letter-spacing: 3px;
+    line-height: 1;
+    padding-bottom: 1px;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.button_nav:hover a {
+    font-weight: 300 !important;
+
+}
+
+
+.toto {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    height: 100vh !important;
+    width: auto !important;
+    background-image: cover !important;
+}
+
+.subtitle_bio {
+    position: relative;
+    top: -8px;
+    letter-spacing: 2px;
+}
+
+.img_bio {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    height: 75vh !important;
+    width: auto !important;
+    background-image: cover !important;
+}
+
+.link_bio {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px;
+}
+
+/*Portfolio*/
+.signature_work {
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+}
+
+
+/*-------------------PRESTATIONS---------------------*/
+#title_prestation_home {
+    letter-spacing: 2px;
+}
+
+.text_prestation_home a {
+    font-family: Fira Sans !important;
+    font-weight: 400;
+    color: #daac50;
+}
+
+.img_prestation {
+    height: auto !important;
+    width: 358px !important;
+}
+
+
+#gala {
+    z-index: 5 !important;
+    position: relative;
+    text-transform: capitalize !important;
+    top: 40px;
+    font-weight: 500;
+    font-size: 102px !important;
+}
+
+#malvie {
+    z-index: 5 !important;
+    position: relative;
+    top: 48px;
+    right: 88px;
+    font-weight: 500;
+    font-size: 102px !important;
+}
+
+#publications {
+    letter-spacing: 2px;
+}
+
+.link_magazine a {
+    font-family: Fira Sans !important;
+    letter-spacing: 2px;
+}
+
+
+.education_item h3 {
+    font-size: 24px !important;
+    letter-spacing: 2px;
+}
+
+.button_presta span {
+    color: white !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    letter-spacing: 2.6px !important;
 }
