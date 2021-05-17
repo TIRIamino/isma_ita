@@ -1,3 +1,4 @@
+
 body a {
     font-style: normal !important;
 }
@@ -25,19 +26,22 @@ body a {
 
 }
 
-
-.toto {
+.picture_top {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     height: 100vh !important;
     width: auto !important;
     background-image: cover !important;
+
 }
 
+/* A propos*/
 .subtitle_bio {
     position: relative;
     top: -8px;
     letter-spacing: 2px;
+    color: #daac50;
+    font-weight: 400 !important;
 }
 
 .img_bio {
@@ -53,13 +57,21 @@ body a {
     font-weight: 400 !important;
     letter-spacing: 2px;
 }
-
+/*----------------------------------------*/
 /*Portfolio*/
-.signature_work {
-    letter-spacing: 2.5px;
-    line-height: 1.5;
+#signature_work_mobile {
+    font-size: 9px !important;
+    color: #daac50 !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
 }
 
+/*----------------------------------------*/
+/*Publication*/
+.link_editorial span {
+ font-family: Fira Sans !important;
+ letter-spacing: 2px !;
+}
 
 /*-------------------PRESTATIONS---------------------*/
 #title_prestation_home {
@@ -116,4 +128,134 @@ body a {
     font-size: 12px !important;
     font-weight: 400;
     letter-spacing: 2.6px !important;
+}
+/*---------------------------------------*/
+/*instagram*/
+
+/*instagram*/
+/*.adress_insta h3{
+  line-height: 1.6;
+  letter-spacing: 3.5px;
+  font-size: 9px !important;
+  font-weight: 400 !important;
+  font-family: Fira Sans !important;
+  color: #404054;
+  background-color: red !important;
+}*/
+
+#instagram a {
+ letter-spacing: 0.2rem !important;
+}
+
+
+#widget_flo_instagram-3 h4 {
+  color: #424256 !important;
+  text-transform: uppercase !important;
+  writing-mode: vertical-lr !important;
+  text-orientation: mixed !important;
+  transform: rotate(180deg) !important;
+  font-family: Fira Sans !important;
+  position: relative !important;
+  top: 204px !important;
+  right: 64px !important;
+  background: white !important;
+  padding: 8px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 1.5px !important;
+  border-right: 1px solid #424256 !important;
+}
+
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
+  font-size: 9px !important;
+  font-weight: 400 !important;
+}
+
+
+
+
+/*---------------------------------------*/
+/*RESPONSIVE*/
+/*TOP*/
+#top_header_subtitle {
+    font-size: 8px !important;
+    padding: 0px 6px !important;
+    letter-spacing: 1.5px;
+    line-height: 1.4 !important;
+}
+
+.button_nav_mobile a {
+    letter-spacing: 3.5px;
+    line-height: 1;
+    padding-bottom: 1px;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: white !important;
+}
+
+.button_nav_mobile:hover a {
+    font-weight: 400 !important;
+
+}
+
+/*A propos*/
+@media only screen and (max-width: 800px) {
+    #subtitle_bio_mobile {
+        font-size: 9px !important;
+        color: #daac50 !important;
+        letter-spacing: 2px !important;
+    }
+
+    #signature_work_mobile {
+        font-size: 9px !important;
+        color: #daac50 !important;
+        letter-spacing: 2px !important;
+    }
+
+    #publications {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #education {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestitions_title {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_mannequin {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_commercial {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_mariage {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_portrait {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_grossesse {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
+    #prestat_corporate {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+    }
+
 }
