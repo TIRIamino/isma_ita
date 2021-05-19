@@ -14,6 +14,7 @@ body a {
     top: -24px !important;
     color: #404056 !important;
 }
+
 .submenu_item:hover {
     font-size: 10px !important;
     font-weight: 400 !important;
@@ -38,8 +39,9 @@ body a {
 #submenu_actif:hover {
 
     text-decoration: underline !important;
-    text-decoration-color: rgba(30,45,59,0.25) !important;
+    text-decoration-color: rgba(30, 45, 59, 0.25) !important;
 }
+
 #submenu-actif {
 
     color: #1e2d3b !important;
@@ -47,10 +49,24 @@ body a {
     padding: 20px !important;
     text-align: center !important;
 }
+
 /*----------------------------*/
 /* DATE SHOOTING*/
 .title_date {
-  letter-spacing: 2.5px !important;
+    letter-spacing: 2.5px !important;
+    display: inline-block !important;
+    padding-left: 16px;
+    color: #9696A7 !important;
+}
+
+#item_shooting {
+    font-size: 14px !important;
+    display: inline-block !important;
+}
+
+.descriptif_shooting a {
+ color: #404054 !important;
+ letter-spacing: 2px;
 }
 
 
@@ -60,35 +76,37 @@ body a {
 }
 
 .reserver_cta_presta_mannequin h5 {
- font-weight: 400 !important;
- font-size: 14px !important;
- font-style: italic !important;
- font-family: Fira Sans !important;
- color: #daac50;
- letter-spacing: 1.5px
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-style: italic !important;
+    font-family: Fira Sans !important;
+    color: #daac50;
+    letter-spacing: 1.5px
 }
 
 .etape_description {
- font-size: 10px !important;
- line-height: 1.6 !important;
- letter-spacing: 1.2px !important;
- width: 80% !important;
+    font-size: 10px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.2px !important;
+    width: 80% !important;
 }
 
 /*---------GALLERY-------------------*/
 
 .flickity-slider .cell img {
- border-radius: 8px;
+    border-radius: 8px;
 
 }
 
 .nectar-flickity[data-controls="touch_total"] .visualized-total span {
-  background-color: #daac50 !important;
-  height: 1px !important;
+    background-color: #daac50 !important;
+    height: 1px !important;
 }
 
 
-body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
     font-size: 9px !important;
     font-weight: 400 !important;
 }
@@ -140,55 +158,79 @@ body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
 /*----------------------*/
 /*RESPONSIVE*/
 @media only screen and (max-width: 690px) {
-  #separrator {
-    line-height: 1.6;
-    font-size: 10px !important;
-  }
+    #separrator {
+        line-height: 1.6;
+        font-size: 10px !important;
+    }
 
-  #onglet_part_mobile {
-    font-family: Fira Mono, sans-serif !important;
-    font-size: 8px !important;
-    position: relative;
-    right: 12px;
-    background: #fcfcfc !important;
+    #onglet_part_mobile {
+        font-family: Fira Mono, sans-serif !important;
+        font-size: 8px !important;
+        position: relative;
+        right: 12px;
+        background: #fcfcfc !important;
 
-  }
-  .picture-header_mobile {
-    padding: 4% !important;
-  }
+    }
 
-  .collection {
-    font-style: italic !important;
-    font-size: 8px !important;
-  }
+    .picture-header_mobile {
+        padding: 4% !important;
+    }
 
-  /*submenu_item Mobile*/
-  #submenu_item_mobile {
-    display: block !important;
-    text-align: center !important;
-    font-size: 0.8rem !important;
-    padding: 4px !important;
-    margin: 8px !important;
-    letter-spacing: 2px!important;
-  }
+    .collection {
+        font-style: italic !important;
+        font-size: 8px !important;
+    }
+
+    /*submenu_item Mobile*/
+    #submenu_item_mobile {
+        display: block !important;
+        text-align: center !important;
+        font-size:
+            /*0.8rem*/
+            8px !important;
+        padding: 4px !important;
+        margin: 8px !important;
+        letter-spacing: 3px !important;
+        /*color: #9696A7 !important;*/
+    }
+
+    #submenu_item_mobile a {
+        letter-spacing: 3px !important;
+    }
+
+    #title_portfolio_hors-serie {
+        font-size: 9px !important;
+    }
+
+    #item_shooting {
+        font-size: 14px !important;
+        display: inline-block !important;
+    }
+
+    #title_date_mobile {
+        display: inline-block !important;
+        padding-left: 4px;
+        color: #9696A7 !important;
+    }
 }
 
-.collection h1{
-  font-size: 12px !important;
-  font-style: italic;
+.collection h1 {
+    font-size: 12px !important;
+    font-style: italic;
 }
 
 
 .onglet_part h1 {
-  letter-spacing: 1.6px;
-  transform: rotate(270deg) !important;
-  transform-origin: top left !important;
-  opacity: 80%;
-  font-size: 10px !important;
-  position: relative;
-  top: 250px;
-  right: 42px;;
-  padding: 4px;
+    letter-spacing: 1.6px;
+    transform: rotate(270deg) !important;
+    transform-origin: top left !important;
+    opacity: 80%;
+    font-size: 10px !important;
+    position: relative;
+    top: 250px;
+    right: 42px;
+    ;
+    padding: 4px;
 }
 
 .navigation {
