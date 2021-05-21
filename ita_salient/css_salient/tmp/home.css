@@ -48,7 +48,7 @@ body a {
 .img_bio {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
-    height: 75vh !important;
+    height: 443px !important;
     width: auto !important;
     background-image: cover !important;
 }
@@ -119,17 +119,36 @@ body a {
     letter-spacing: 2px;
 }
 
-
+/*---------EDUCATION-----------------------------*/
 .education_item h3 {
     font-size: 24px !important;
     letter-spacing: 2px;
 }
 
+.btn_workshop span {
+    color: #1e2d3b !important;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 3.5px !important;
+}
+
+.btn_workshop {
+ text-align: center !important;
+ width: 100% !important
+}
+
+/*------------------------------------------*/
+
 .button_presta span {
     color: white !important;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2.6px !important;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 3.5px !important;
+}
+
+.button_presta {
+ text-align: center !important;
+ width: 100% !important
 }
 
 /*---------------------------------------*/
@@ -226,47 +245,58 @@ body #footer-outer .widget h4 {
     #publications {
         font-size: 10px !important;
         letter-spacing: 2px !important;
+        text-align: center !important;
     }
 
     #education {
         font-size: 10px !important;
         letter-spacing: 2px !important;
+        padding-top: 6px !important;
+        text-align: center !important;
     }
 
     #prestitions_title {
         font-size: 10px !important;
         letter-spacing: 2px !important;
+        text-align: center !important;
     }
 
     #prestat_mannequin {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
+
     }
 
     #prestat_commercial {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
     }
 
     #prestat_mariage {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
     }
 
     #prestat_portrait {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
     }
 
     #prestat_grossesse {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
     }
 
     #prestat_corporate {
         font-size: 10px !important;
-        letter-spacing: 2px !important;
+        letter-spacing: 2.5px !important;
     }
+    .footer_subtitle h3 {
+     font-size: 7px !important;
+    }
+    .bg_prestation {
+      background-color: white !important;
+ }
 
 }
 
@@ -309,3 +339,22 @@ body #footer-outer .widget h4 {
   font-weight: 400;
   color: #424256;
 }
+
+.footer_mobile {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 10px !important;
+  font-weight: 400;
+}
+
+#nav_mobile_footer {
+ line-height: 1px !important;
+}
+ #nav_mobile_footer a {
+ letter-spacing: 3.5px;
+ font-size: 9px !important;
+
+ }
+
+
+
