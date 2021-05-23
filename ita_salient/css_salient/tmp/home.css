@@ -16,7 +16,7 @@ body a {
     letter-spacing: 3.5px;
     line-height: 1;
     /*color: #878798 !important;*/
-    color: white !important;
+    color: #1e2e3b !important;
     padding-bottom: 1px;
     font-weight: 400 !important;
     font-size: 12px !important;
@@ -64,7 +64,7 @@ body a {
 #signature_work_mobile {
     font-size: 9px !important;
     color: #daac50 !important;
-    letter-spacing: 2px !important;
+    letter-spacing: 2.5px !important;
     font-weight: 400 !important;
 }
 
@@ -133,8 +133,8 @@ body a {
 }
 
 .btn_workshop {
- text-align: center !important;
- width: 100% !important
+    text-align: center !important;
+    width: 100% !important
 }
 
 /*------------------------------------------*/
@@ -147,8 +147,8 @@ body a {
 }
 
 .button_presta {
- text-align: center !important;
- width: 100% !important
+    text-align: center !important;
+    width: 100% !important
 }
 
 /*---------------------------------------*/
@@ -255,6 +255,13 @@ body #footer-outer .widget h4 {
         text-align: center !important;
     }
 
+    #about {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+        padding-top: 6px !important;
+        text-align: center !important;
+    }
+
     #prestitions_title {
         font-size: 10px !important;
         letter-spacing: 2px !important;
@@ -291,12 +298,14 @@ body #footer-outer .widget h4 {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
     }
+
     .footer_subtitle h3 {
-     font-size: 7px !important;
+        font-size: 7px !important;
     }
+
     .bg_prestation {
-      background-color: white !important;
- }
+        background-color: white !important;
+    }
 
 }
 
@@ -329,32 +338,48 @@ body #footer-outer .widget h4 {
 
 
 .footer_menu {
-  font-family: Fira Sans !important;
-  font-size: 12px !important;
-  display: inline-block;
-  padding: 20px;
-  text-align: center;
-  line-height: 1.6;
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  color: #424256;
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
 }
 
 .footer_mobile {
-  line-height: 1.6;
-  letter-spacing: 1px;
-  font-size: 10px !important;
-  font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
 }
 
 #nav_mobile_footer {
- line-height: 1px !important;
+    line-height: 1px !important;
 }
- #nav_mobile_footer a {
- letter-spacing: 3.5px;
- font-size: 9px !important;
 
- }
+#nav_mobile_footer a {
+    letter-spacing: 3.5px;
+    font-size: 9px !important;
 
+}
 
+/*Title*/
 
+#publications {
+    letter-spacing: 2.5px !important;
+}
+
+#education {
+    letter-spacing: 2.5px !important;
+}
+
+#about {
+    letter-spacing: 2.5px !important;
+}
+
+#prestitions_title {
+    letter-spacing: 2.5px !important;
+}
