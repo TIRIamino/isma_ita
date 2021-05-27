@@ -7,6 +7,14 @@
     font-weight: 400 !important;
 }
 
+.banner_top {
+ font-size:  9px !important;
+ font-style:  normal !important;
+ font-weight:  400 !important;
+ letter-spacing:  2.5px !important;
+
+}
+
 /*HEADER*/
 
 #subtitle_catalogue_photographer {
