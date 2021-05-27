@@ -1,8 +1,10 @@
 /*BUTTON*/
 .cta_prestation span {
     font-family: Fira Sans !important;
-    font-size: 12px !important;
-    font-style: italic !important;
+    font-size: 11px !important;
+    font-style: normal !important;
+    letter-spacing: 2.5px !important;
+    font-weight: 400 !important;
 }
 
 /*HEADER*/
@@ -31,10 +33,10 @@
 
 /*Prestations*/
 .collection h2 {
-    font-size: 16px !important;
+    font-size: 12px !important;
     font-family: Fira Sans !important;
     font-weight: 400;
-    letter-spacing: 1.6px;
+    letter-spacing: 2px;
 }
 
 .collection strong {
@@ -43,7 +45,7 @@
 }
 
 #description_prestation {
-    letter-spacing: 1.2px !important;
+    letter-spacing: 1.8px !important;
 }
 
 /*Photo prestation*/
@@ -121,13 +123,13 @@ body #footer-outer .widget h4 {
     }
 
     #description_prestation {
-        font-size: 12px !important;
+        font-size: 8px !important;
         text-align: justify-all;
         letter-spacing: 1.5px important;
     }
 
     .collection h2 {
-        font-size: 14px !important;
+        font-size: 11px !important;
         text-align: center !important;
     }
 
@@ -140,18 +142,42 @@ body #footer-outer .widget h4 {
         font-family: Fira Sans !important;
         text-align: center;
     }
+
+    #title_prestation-shooting {
+        font-size: 11px !important;
+    }
+
+    #title_photographe_pro {
+        font-size: 8px !important;
+        width:  100% !important;
+        line-height: 1.2 !important;
+    }
+
+    #btn-call-mobile {
+        width: 100%;
+        text-align: center !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px !important;
+    }
+
 }
 
 #title_photographe_pro {
- letter-spacing: 2px;
- font-weight: 300 !important;
-
+    letter-spacing: 2px;
+    font-weight: 300 !important;
+    display: inline-block !important;
+    padding-right: 150px;
 }
 
 .rose-picture {
- overflow-x: hidden !important;
+    overflow-x: hidden !important;
     overflow-y: hidden !important;
     height: 100vh !important;
     width: 50px !important;
     background-image: cover !important;
+}
+
+#title_prestation-shooting {
+    letter-spacing: 2px !important;
 }
