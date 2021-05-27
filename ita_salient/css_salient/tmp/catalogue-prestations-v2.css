@@ -153,12 +153,30 @@ body #footer-outer .widget h4 {
         line-height: 1.2 !important;
     }
 
+    #top_header_mobile {
+     font-size:  8px !important;
+     text-align:  center !important;
+     letter-spacing: 2px !important;
+     line-height:  1.6 !important;
+
+    }
+
     #btn-call-mobile {
         width: 100%;
         text-align: center !important;
         font-style: normal !important;
         font-weight: 400 !important;
         letter-spacing: 2px !important;
+    }
+    #subtitle_banner_mobile {
+     font-size:  8px !important;
+     letter-spacing:  2px !important;
+    }
+    .cta_prestation span {
+     text-align:  center !important;
+    }
+    #btn_mannequin {
+     width:  100% !important;
     }
 
 }
