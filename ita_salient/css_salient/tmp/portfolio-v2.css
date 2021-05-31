@@ -1,0 +1,101 @@
+body a {
+    font-style: normal !important;
+}
+
+
+/*-----------------------SUBMENU NAV*/
+/*submenu_item*/
+.submenu_item {
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    letter-spacing: 2.5px !important;
+    position: relative !important;
+    top: -24px !important;
+    color: #404056 !important;
+}
+
+.submenu_item:hover {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #18242f !important;
+    text-decoration: overline !important;
+    transition-delay: 0.5s !important;
+    transition-property: text-decoration !important;
+}
+
+/*----------------------------*/
+/*submenu_item Mobile*/
+/*
+.submenu_item_mobile {
+    display: inline-block !important;
+    text-align: center !important;
+    font-size: 8px !important;
+    letter-spacing: 2px!important;
+}
+*/
+/*----------------------------*/
+/*submenu_actif*/
+#submenu_actif:hover {
+
+    text-decoration: underline !important;
+    text-decoration-color: rgba(30, 45, 59, 0.25) !important;
+}
+
+#submenu-actif {
+
+    color: #1e2d3b !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+
+
+
+/*-------GRID PORTFOLIO-----------------*/
+.project {
+ font-size:  12px !important;
+ font-weight: 300 !important;
+ letter-spacing:  2px !important;
+}
+
+.gallery a {
+ font-family:  Fira Sans !important;
+ font-weight:  400 !important;
+ font-size:  8px !important;
+ letter-spacing:  3px !important;
+}
+
+.picture {
+    width: 375px;
+    height: auto;
+    background-image: cover;
+}
+
+
+.hover-line :hover{
+    margin-top: 12px;
+    height: 1px;
+    margin-bottom: 12px;
+    color: red;
+}
+
+.hover_item:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+}
+
+
+#title_portfolio {
+ letter-spacing:  2.5px !important;
+ background: white !important;
+ padding: 8px !important;
+ line-height: 1.6 !important;
+
+
+}
+
+.onglet_portfolio {
+ position:  sticky !important;
+
+}
