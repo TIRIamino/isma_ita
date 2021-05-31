@@ -72,6 +72,33 @@
 }
 
 /*-------------------FOOTER_NAV---------------------*/
+.footer_subtitle h3 {
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: 3.5px !important;
+    line-height: 0.2rem !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    color: #404054;
+
+}
+
+.footer_subtitle strong {
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 1.5 !important;
+    padding-bottom: 8px !important;
+}
+
+.footer_city h4 {
+    margin-top: -16px !important;
+    font-size: 9px !important;
+    letter-spacing: 3.5px !important;
+    font-weight: 700 !important;
+}
+
+
+
 .footer_menu {
     font-family: Fira Sans !important;
     font-size: 12px !important;
@@ -91,38 +118,33 @@
     font-weight: 400;
 }
 
-/*instagram*/
-.adress_insta {
-    line-height: 1.6;
-    letter-spacing: 2px;
-    font-size: 8px !important;
-    font-weight: 400 !important;
-    font-family: Fira Sans !important;
-    color: #424256;
+#nav_mobile_footer {
+    line-height: 1px !important;
 }
 
-#widget_flo_instagram-3 h4 {
+#nav_mobile_footer a {
+    letter-spacing: 3.5px;
+    font-size: 9px !important;
+
+}
+
+/*instagram*/
+#instagram a {
+    letter-spacing: 2.5px !important;
     color: #424256 !important;
-    text-transform: uppercase !important;
-    writing-mode: vertical-lr !important;
-    text-orientation: mixed !important;
-    transform: rotate(180deg) !important;
-    font-family: Fira Sans !important;
-    position: relative !important;
-    top: 204px !important;
-    right: 64px !important;
-    background: white !important;
-    padding: 8px !important;
-    line-height: 1.6 !important;
-    letter-spacing: 1.5px !important;
-    border-right: 1px solid #424256 !important;
+    font-size: 9px !important;
+
 }
 
 body #sidebar h4,
 body .widget h4,
 body #footer-outer .widget h4 {
+    color: #424256 !important;
+
     font-size: 9px !important;
     font-weight: 400 !important;
+    font-family: Fira Sans !important;
+    letter-spacing: 2.5px !important;
 }
 
 /*----------------------responsive--------------*/
@@ -212,6 +234,10 @@ body #footer-outer .widget h4 {
     .picture_about {
      width:  200px !important;
      height:  auto !important;
+    }
+
+    .footer_subtitle h3 {
+        font-size: 7px !important;
     }
 
 

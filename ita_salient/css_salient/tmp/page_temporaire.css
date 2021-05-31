@@ -104,15 +104,15 @@ body a {
 }
 
 
-body #sidebar h4,
+/*body #sidebar h4,
 body .widget h4,
 body #footer-outer .widget h4 {
     font-size: 9px !important;
     font-weight: 400 !important;
-}
+}*/
 
 /*-------------------FOOTER_NAV---------------------*/
-.footer_menu {
+/*.footer_menu {
     font-family: 'Fira Sans' !important;
     font-size: 12px !important;
     display: inline-block !important;
@@ -150,6 +150,82 @@ body #footer-outer .widget h4 {
     line-height: 1.6 !important;
     letter-spacing: 1px !important;
     font-size: 10px !important;
+}*/
+
+
+.footer_subtitle h3 {
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: 3.5px !important;
+    line-height: 0.2rem !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    color: #404054;
+
+}
+
+.footer_subtitle strong {
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 1.5 !important;
+    padding-bottom: 8px !important;
+}
+
+.footer_city h4 {
+    margin-top: -16px !important;
+    font-size: 9px !important;
+    letter-spacing: 3.5px !important;
+    font-weight: 700 !important;
+}
+
+
+
+.footer_menu {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
+}
+
+.footer_mobile {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
+}
+
+#nav_mobile_footer {
+    line-height: 1px !important;
+}
+
+#nav_mobile_footer a {
+    letter-spacing: 3.5px;
+    font-size: 9px !important;
+
+}
+
+/*instagram*/
+#instagram a {
+    letter-spacing: 2.5px !important;
+    color: #424256 !important;
+    font-size: 9px !important;
+
+}
+
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
+    color: #424256 !important;
+
+    font-size: 9px !important;
+    font-weight: 400 !important;
+    font-family: Fira Sans !important;
+    letter-spacing: 2.5px !important;
 }
 
 
@@ -211,6 +287,9 @@ body #footer-outer .widget h4 {
         display: inline-block !important;
         padding-left: 4px;
         color: #9696A7 !important;
+    }
+    .footer_subtitle h3 {
+        font-size: 7px !important;
     }
 }
 
