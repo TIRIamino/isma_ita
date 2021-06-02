@@ -84,7 +84,7 @@ body a {
 
 .team li {
 
-    display: inline-block !important;
+    display: block !important;
 }
 
 
@@ -96,7 +96,7 @@ body a {
     font-weight: 700 !important;
     letter-spacing: 2.5px !important;
     line-height: 1.6;
-    padding: 8px !important;
+    /*padding: 8px !important;*/
 
 }
 
@@ -135,6 +135,10 @@ body a {
     top:  200px !important;
 }
 
+#title_two_block {
+ letter-spacing:  3px !important;
+ font-weight:  400 !important;
+}
 
 
 /*-------------------FOOTER_NAV---------------------*/
