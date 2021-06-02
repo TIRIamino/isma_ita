@@ -1,0 +1,221 @@
+body a {
+    font-style: normal !important;
+}
+
+
+/*-----------------------SUBMENU NAV*/
+/*submenu_item*/
+.submenu_item {
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    letter-spacing: 2.5px !important;
+    position: relative !important;
+    top: -24px !important;
+    color: #404056 !important;
+}
+
+.submenu_item:hover {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #18242f !important;
+    text-decoration: overline !important;
+    transition-delay: 0.5s !important;
+    transition-property: text-decoration !important;
+}
+
+/*----------------------------*/
+/*submenu_item Mobile*/
+/*
+.submenu_item_mobile {
+    display: inline-block !important;
+    text-align: center !important;
+    font-size: 8px !important;
+    letter-spacing: 2px!important;
+}
+*/
+/*----------------------------*/
+/*submenu_actif*/
+#submenu_actif:hover {
+
+    text-decoration: underline !important;
+    text-decoration-color: rgba(30, 45, 59, 0.25) !important;
+}
+
+#submenu-actif {
+
+    color: #1e2d3b !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+
+
+
+#title_h1 {
+    letter-spacing: 2px !important;
+}
+
+#date_shooting {
+    letter-spacing: 2px !important;
+}
+
+
+.picture_top {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    height: 1000px !important;
+    width: auto !important;
+    background-image: cover !important;
+
+}
+
+.picture {
+   /* height: 591px !important;
+    width: 387px !important;*/
+    padding: 2px !important;
+}
+
+.picture_paysage {
+    /*height: 591px !important;
+    width: auto !important;*/
+    padding: 2px !important;
+}
+
+.team li {
+
+    display: inline-block !important;
+}
+
+
+
+.team h3 {
+
+    font-family: Fira Sans !important;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    line-height: 1.6;
+    padding: 8px !important;
+
+}
+
+.team strong {
+    font-family: Fira Sans !important;
+    font-size: 9px !important;
+    font-weight: 400 !important;
+    letter-spacing: 2.5px !important;
+    line-height: 1.6;
+    color: #404054 !important;
+}
+
+#team_title {
+    letter-spacing: 2.5px;
+
+}
+
+#scroll {
+    letter-spacing: 3px !important;
+    font-size: 7px !important;
+    font-weight: 400 !important;
+}
+
+#start {
+    transform: rotate(-90deg) !important;
+    position: relative;
+    left: -50% !important;
+    width: 80% !important;
+}
+
+#scroll_bottom {
+    transform: rotate(90deg) !important;
+    position: relative;
+    left: 70% !important;
+    width: 80% !important;
+    top:  200px !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_subtitle h3 {
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: 3.5px !important;
+    line-height: 0.2rem !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    color: #404054;
+
+}
+
+.footer_subtitle strong {
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 1.5 !important;
+    padding-bottom: 8px !important;
+}
+
+.footer_city h4 {
+    margin-top: -16px !important;
+    font-size: 9px !important;
+    letter-spacing: 3.5px !important;
+    font-weight: 700 !important;
+}
+
+
+
+.footer_menu {
+    font-family: Fira Sans !important;
+    font-size: 12px !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #424256;
+}
+
+.footer_mobile {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px !important;
+    font-weight: 400;
+}
+
+#nav_mobile_footer {
+    line-height: 1px !important;
+}
+
+#nav_mobile_footer a {
+    letter-spacing: 3.5px;
+    font-size: 9px !important;
+
+}
+
+/*instagram*/
+#instagram a {
+    letter-spacing: 2.5px !important;
+    color: #424256 !important;
+    font-size: 9px !important;
+
+}
+
+body #sidebar h4,
+body .widget h4,
+body #footer-outer .widget h4 {
+    color: #424256 !important;
+
+    font-size: 9px !important;
+    font-weight: 400 !important;
+    font-family: Fira Sans !important;
+    letter-spacing: 2.5px !important;
+}
+
+/*----------------------responsive--------------*/
+@media only screen and (max-width: 800px) {
+ .footer_subtitle h3 {
+        font-size: 7px !important;
+    }
+}
