@@ -17,6 +17,10 @@
 
 /*HEADER*/
 
+#title_photographe_pro {
+ font-family:  Avenir !important;
+}
+
 #subtitle_catalogue_photographer {
     letter-spacing: 2.5px !important;
     color: gold !important;

@@ -1,48 +1,69 @@
-/*-------BODY----------------*/
-
 body a {
     font-style: normal !important;
     font-family: Nunito !important;
     font-weight: 500 !important;
 }
 
-/*------------LOGO--------------*/
+
+/*-------LOGO-------------*/
+/*title_h1*/
 #title_ismahane {
     font-family: Cormorant !important;
     font-weight: 300 !important;
 }
-/*title_h1*/
 
-/*subtitle_h2*/
-.subtitle_h2 {
-    letter-spacing: 2.5px;
-    line-height: 1.2
+.subtitle_top h2 {
+    font-family: Nunito !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 1.5 !important;
+    padding-bottom: 8px !important;
+    letter-spacing: 8px !important;
 }
 
-/*button navigation*/
+.subtitle_top h3 {
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: 3.5px !important;
+    line-height: 0.2rem !important;
+    font-family: Nunito !important;
+    font-weight: 300 !important;
+    color: #404054;
+}
+
+.city h4 {
+    font-family: Nunito !important;
+    margin-top: -16px !important;
+    font-size: 9px !important;
+    letter-spacing: 3.5px !important;
+    font-weight: 400 !important;
+}
+
+
+/*------------button navigation*/
 .button_nav a {
     letter-spacing: 3.5px;
     line-height: 1;
-    /*color: #878798 !important;*/
     color: #1e2e3b !important;
     padding-bottom: 1px;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     font-size: 9px !important;
 }
 
 .button_nav:hover a {
     font-weight: 300 !important;
-
 }
 
+/*------------------*/
 .picture_top {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     height: 100vh !important;
     width: auto !important;
     background-image: cover !important;
-
 }
+
+
 
 /* A propos*/
 .subtitle_bio {
@@ -61,10 +82,11 @@ body a {
     background-image: cover !important;
 }
 
-.link_bio {
+.link_bio a {
     font-family: Nunito !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     letter-spacing: 2px;
+
 }
 
 /*----------------------------------------*/
@@ -73,14 +95,20 @@ body a {
     font-size: 9px !important;
     color: #daac50 !important;
     letter-spacing: 2.5px !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
 }
 
+.link_all a {
+    font-family: Nunito !important;
+    letter-spacing: 2px !important;
+    font-size:  9px !important;
+    color:  #1E2D3B !important;
+}
 /*----------------------------------------*/
 /*Publication*/
 .link_editorial span {
     font-family: Nunito !important;
-    letter-spacing: 2px !;
+    letter-spacing: 2.5px !important;
 }
 
 /*-------------------PRESTATIONS---------------------*/
@@ -150,7 +178,7 @@ body a {
 .button_presta span {
     color: white !important;
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3.5px !important;
 }
 
@@ -215,18 +243,21 @@ body #footer-outer .widget h4 {
 /*---------------------------------------*/
 /*RESPONSIVE*/
 /*TOP*/
-#top_header_subtitle {
+/*=> a vérifier*/
+/*#top_header_subtitle {
     font-size: 8px !important;
     padding: 0px 6px !important;
     letter-spacing: 1.5px;
     line-height: 1.4 !important;
-}
+    color: purple !important;
+    background: red !important;
+}*/
 
 .button_nav_mobile a {
     letter-spacing: 3.5px;
     line-height: 1;
     padding-bottom: 1px;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     font-size: 12px !important;
     color: white !important;
 }
@@ -279,32 +310,38 @@ body #footer-outer .widget h4 {
     #prestat_mannequin {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
 
     }
 
     #prestat_commercial {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
     }
 
     #prestat_mariage {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
     }
 
     #prestat_portrait {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
     }
 
     #prestat_grossesse {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
     }
 
     #prestat_corporate {
         font-size: 10px !important;
         letter-spacing: 2.5px !important;
+        font-family:  Nunito !important;
     }
 
     .footer_subtitle h3 {
@@ -316,7 +353,6 @@ body #footer-outer .widget h4 {
     }
 
 }
-
 
 
 .footer_subtitle h3 {
@@ -331,7 +367,6 @@ body #footer-outer .widget h4 {
 }
 
 .footer_subtitle strong {
-    font-family: Nunito !important;
     font-weight: 400 !important;
     font-size: 9px !important;
     line-height: 1.5 !important;
@@ -339,7 +374,6 @@ body #footer-outer .widget h4 {
 }
 
 .footer_city h4 {
-    font-family: Nunito !important;
     margin-top: -16px !important;
     font-size: 9px !important;
     letter-spacing: 3.5px !important;
@@ -382,19 +416,27 @@ body #footer-outer .widget h4 {
 #publications {
     letter-spacing: 2.5px !important;
     font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
 }
 
 #education {
     letter-spacing: 2.5px !important;
     font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
 }
 
 #about {
     letter-spacing: 2.5px !important;
     font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
 }
 
 #prestitions_title {
     letter-spacing: 2.5px !important;
     font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
 }

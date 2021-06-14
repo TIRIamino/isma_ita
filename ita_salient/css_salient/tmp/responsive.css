@@ -1,0 +1,105 @@
+responsive.css
+/*TOP*/
+
+/*=>>> à vérifier*/
+/*#top_header_subtitle {
+    font-size: 8px !important;
+    padding: 0px 6px !important;
+    letter-spacing: 1.5px;
+    line-height: 1.4 !important;
+} */
+
+.button_nav_mobile a {
+    letter-spacing: 3.5px;
+    line-height: 1;
+    padding-bottom: 1px;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    color: white !important;
+}
+
+.button_nav_mobile:hover a {
+    font-weight: 400 !important;
+
+}
+
+/*A propos*/
+@media only screen and (max-width: 800px) {
+    #subtitle_bio_mobile {
+        font-size: 9px !important;
+        color: #daac50 !important;
+        letter-spacing: 2px !important;
+    }
+
+    #signature_work_mobile {
+        font-size: 9px !important;
+        color: #daac50 !important;
+        letter-spacing: 2px !important;
+    }
+
+    #publications {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+        text-align: center !important;
+    }
+
+    #education {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+        padding-top: 6px !important;
+        text-align: center !important;
+    }
+
+    #about {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+        padding-top: 6px !important;
+        text-align: center !important;
+    }
+
+    #prestitions_title {
+        font-size: 10px !important;
+        letter-spacing: 2px !important;
+        text-align: center !important;
+    }
+
+    #prestat_mannequin {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+
+    }
+
+    #prestat_commercial {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+    }
+
+    #prestat_mariage {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+    }
+
+    #prestat_portrait {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+    }
+
+    #prestat_grossesse {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+    }
+
+    #prestat_corporate {
+        font-size: 10px !important;
+        letter-spacing: 2.5px !important;
+    }
+
+    .footer_subtitle h3 {
+        font-size: 7px !important;
+    }
+
+    .bg_prestation {
+        background-color: white !important;
+    }
+
+}
