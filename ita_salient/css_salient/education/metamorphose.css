@@ -1,0 +1,592 @@
+/*#cta_booking span{
+    font-family: Fira Sans !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+
+#cta_phone span {
+    font-family: Fira Sans !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+}*/
+
+.link_bio h4{
+    font-family: Fira Sans !important;
+    font-weight: 500;
+}
+
+.product_francy strong {
+   color: #daac50 !important ;
+   font-family: Fira Sans !important;
+   letter-spacing: 2px;
+   line-height: 1.6;
+   font-size: 16px !important;
+
+}
+.product_francy h2 {
+    font-size: 24px !important;
+}
+
+.casting h3 {
+    font-size: 18px !important;
+    font-family: Fira Sans !important;
+    font-weight: 300;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+}
+
+.casting strong {
+    font-family: Fira Sans !important;
+    font-weight: 500;
+}
+
+
+
+.description_casting p {
+
+    line-height: 1.6;
+}
+
+.nectar-gradient-text h3 {
+    font-size: 40px !important;
+    padding: 24px !important;
+    background-image: linear-gradient(to right, #daac50, #daac50) !important;
+}
+
+
+/*----------------form--------------------*/
+.wpcf7-submit {
+font-family: FontAwesome !important;
+background: transparent !important;
+color: #1e2d3b !important;
+font-size:80px !important;
+position: relative !important;
+left: 80% !important;
+top: 18px !important;
+
+
+}
+
+
+
+
+#first_name {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#first_name:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+#email {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+
+}
+
+#phone {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#feedback {
+    border: 0;
+    border-bottom: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+#feedback:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+
+#message {
+    /*border: 0;*/
+    /*border-bottom: 1px solid #8B8B9B;*/
+    border: 1px solid #8B8B9B;
+    display: block;
+    outline: 0;
+    padding: 11px 0;
+    width: 100%;
+    height: 50% !important;
+    resize: none !important;
+    overflow: hidden !important;
+    max-height: 200px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    /*line-height: 1px !important;*/
+    text-transform: uppercase !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
+}
+
+
+
+#message:hover {
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+
+.wpcf7 label {
+    font-family: Fira Sans !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7-list-item {
+    padding: 8px !important;
+    margin-bottom: 4px !important;
+    display: grid !important;
+    grid-template: auto 1fr / auto 1fr auto !important;
+    /*grid-template-columns: repeat(6 , 1fr) !important;*/
+    border: 1px  rgba(255, 255, 255, 0.5) solid  !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+    /*background: red !important;*/
+
+}
+
+.wpcf7-list-item span {
+    font-size: 10px !important;
+    font-weight: 200 !important;
+    width: 100% !important;
+    /*background: purple !important;*/
+    text-align: left !important;
+}
+
+.wpcf7-checkbox input[type=checkbox] {
+content: "";
+}
+
+
+.onglet {
+ color: #1e2d3b !important;
+ font-family: Montserrat !important;
+ letter-spacing: .12rem !important;
+ line-height: 1 !important;
+ font-weight: 900 !important;
+ /*background: purple !important;*/
+ text-transform: uppercase !important;
+ transform: rotate(90deg) !important;
+ transform-origin: bottom right !important;
+
+}
+
+
+
+/*MESSAGE&REPONSE*/
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 1px solid #00a0d2; /* Blue */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.init .wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450; /* Green */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #ff7675; /* Red */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #fdcb6e; /* Orange */
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900; /* Yellow */
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    font-family: Fira Sans !important;
+    text-transform: uppercase !important;
+    letter-spacing: .12rem !important;
+    line-height: 1 !important;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+    font-family: Montserrat !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------FOOTER------------------*/
+
+.adress_insta {
+ text-transform: uppercase !important;
+ line-height: 1.6 !important;
+ letter-spacing: 1.5px !important;
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ font-family: Montserrat !important;
+ color: #424256 !important;
+}
+
+#widget_flo_instagram-3 h4 {
+    font-size: 40px !important;
+    color: #424256 !important;
+    text-transform: uppercase !important;
+    writing-mode: vertical-lr !important;
+    text-orientation: mixed !important;
+     transform: rotate(180deg) !important;
+     font-family: Montserrat !important;
+     font-weight: 400 !important;
+     position: relative !important;
+     top: 204px !important;
+     right: 64px !important;
+     background: white !important;
+    padding: 8px !important;
+     line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    border-right: 1px solid #424256 !important;
+    /*border-left: 1px solid #424256 !important;*/
+
+
+}
+
+
+body #sidebar h4, body .widget h4, body #footer-outer .widget h4 {
+    font-size: 9px !important;
+    font-weight: 400 !important;
+}
+
+
+
+/*-------------------FOOTER_NAV---------------------*/
+.footer_menu {
+    font-family: 'Fira Sans' !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 20px !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 400 !important;
+    color: #424256 !important;
+}
+
+.footer_mobile {
+    line-height: 1.6 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+}
+
+
+
+/*----------------------responsive--------------*/
+@media only screen and (max-width: 690px) {
+    #booster {
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+
+    #product {
+        font-size: 12px !important;
+        text-align: center !important;
+        padding-top: 6% !important;
+    }
+
+    #collection {
+        font-size: 10px !important;
+    }
+    #title_programme {
+        font-size: 14px !important;
+
+    }
+
+    .prospect_p {
+        font-family: Fira Sans !important;
+        padding: 8px;
+        text-align: center;
+        font-size: 9px !important;
+        color: white;
+    }
+
+    .toggle {
+        border-radius: 8px !important;
+        margin: 12px !important;
+        /*background: #a0d1d4;*/
+        /*background: #1e2d3b;*/
+        background: #F6F3EF;
+    }
+    .toggle h3, a  {
+    font-family: 'Nunito';
+    font-weight: 400;
+    color: #1e2d3b !important;
+    font-style: normal !important;
+    padding: 4% !important;
+    font-size: 10px !important;
+    }
+
+
+
+    .product_francy strong {
+        font-size: 16px !important;
+    }
+
+    .product_francy h2 {
+        font-size: 16px !important;
+    }
+
+    #subtitle_top {
+      font-size:  8px !important;
+      font-family: Nunito !important;
+      letter-spacing: 2.5px !important;
+      font-weight:  600 !important;
+      text-align:  center !important;
+      line-height:  1.2 !important;
+    }
+
+    #title_video {
+      font-size:  10px !important;
+    }
+
+    #coach {
+      font-size:  10px !important;
+    }
+    #button_formule_complete {
+    width: 100% !important
+    }
+    .zoe_location h3 {
+        font-size: 9px !important;
+    }
+    .presta span {
+        font-size: 10px !important;
+    }
+    .presta p {
+        text-align: -webkit-left !important;
+    }
+
+    #subtitle_programme {
+      font-size:  10px !important;
+    }
+}
+
+#intro_profil {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+}
+
+.nectar-fancy-ul {
+    text-transform: uppercase !important;
+    font-size: 12px;
+
+}
+
+.nectar-fancy-ul strong {
+    font-family: Fira Sans !important;
+    font-weight: 400 !important;
+}
+
+.descrip_programme p {
+    color: #1e2d3b !important;
+    text-align: left !important;
+    padding-left: 6px !important;
+}
+
+.descript_top  {
+    letter-spacing: 2.5px !important;
+    font-size: 11px !important;
+}
+
+.title_coaching_top  {
+    font-style: italic !important;
+    font-family: Cormorant !important;
+    font-weight: 300 !important;
+}
+
+/*------------------------------------------*/
+
+.button_presta span {
+    color: white !important;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 3.5px !important;
+}
+
+.button_presta {
+    text-align: center !important;
+    width: 100% !important
+}
+
+#button_formule_complete {
+    width: 50% !important
+}
+
+.button_booking span {
+    color: white !important;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 3.5px !important;
+}
+
+.button_booking {
+    text-align: center !important;
+}
+
+/*---------------------------------------*/
+
+.btn_isma span {
+    color: #1e2d3b !important;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 3.5px !important;
+}
+
+.btn_isma {
+    text-align: center !important;
+    width: 100% !important
+}
+
+
+
+body a {
+    font-style: normal !important;
+    font-family: Nunito !important;
+    font-weight: 500 !important;
+}
+
+
+
+#title_video {
+    letter-spacing: 2.5px !important;
+    font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
+    padding: 2% !important;
+}
+
+#coach {
+    letter-spacing: 2.5px !important;
+    font-family: Nunito !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
+    padding: 4% !important;
+}
+
+#candidats {
+  letter-spacing: 2.5px !important;
+  font-family: Nunito !important;
+  font-weight:  600 !important;
+  letter-spacing:  3.5px !important;
+  padding: 4% !important;
+}
+
+
+#subtitle_top_desktop {
+    font-family: Nunito !important;
+    letter-spacing: 2.5px !important;
+    font-weight:  600 !important;
+    font-weight:  600 !important;
+    letter-spacing:  3.5px !important;
+    font-size:  10px !important;
+}
+
+.zoe_location h3 {
+    font-family: 'Nunito' !important;
+    font-size: 9px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 2px !important;
+}
+
+.presta strong {
+    font-family: 'Nunito' !important;
+}
+
+.presta p {
+    font-size: 10px !important;
+    letter-spacing: 2px !important;
+}
+
+#subtitle_programme {
+  font-size:  12px!important;
+  letter-spacing: 2px !important;
+}
